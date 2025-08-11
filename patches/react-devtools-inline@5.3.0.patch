@@ -1,0 +1,25 @@
+diff --git a/dist/backend.js b/dist/backend.js
+index c0c1a8eeb0e37f48b8e9bdee134b7b50e09fc7a4..64dfb2b8275758a97cfaa10f30e2b19f157bf8f9 100644
+--- a/dist/backend.js
++++ b/dist/backend.js
+@@ -13529,6 +13529,7 @@ function attach(hook, rendererID, renderer, global) {
+     updateComponentFilters
+   };
+ }
++if (sessionStorageGetItem("React::DevTools::reloadAndProfile") === "true") globalThis.__REACT_DEVTOOLS_ATTACH__ = attach;
+ ;// CONCATENATED MODULE: ../react-devtools-shared/src/backend/console.js
+ /**
+  * Copyright (c) Meta Platforms, Inc. and affiliates.
+diff --git a/dist/frontend.js b/dist/frontend.js
+index 4a78c2bceb90200e911785fbf29990a8d1af08e7..5501edffc83916cc987049a21eaa5868881fcb97 100644
+--- a/dist/frontend.js
++++ b/dist/frontend.js
+@@ -33206,7 +33206,7 @@ columnNumber) {
+     if (resourceLine.includes(SOURCE_MAP_ANNOTATION_PREFIX)) {
+       const sourceMapAnnotationStartIndex = resourceLine.indexOf(SOURCE_MAP_ANNOTATION_PREFIX);
+       const sourceMapURL = resourceLine.slice(sourceMapAnnotationStartIndex + SOURCE_MAP_ANNOTATION_PREFIX.length, resourceLine.length);
+-      const sourceMap = await fetchFileWithCaching(sourceMapURL).catch(() => null);
++      const sourceMap = await fetchFileWithCaching(new URL(sourceMapURL, sourceURL).toString()).catch(() => null);
+ 
+       if (sourceMap != null) {
+         try {

@@ -1,0 +1,1357 @@
+[
+    {
+        "chainId": 1,
+        "type": "Ethereum",
+        "name": "ETH",
+        "color": "rgb(28, 104, 243)",
+        "network": "mainnet",
+        "fullName": "Ethereum",
+        "shortName": "eth",
+        "features": ["EIP1559"],
+        "nativeCurrency": {
+            "chainId": 1,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "maxGasLimit": "7920026",
+        "infoURL": "https://ethereum.org",
+        "explorers": [
+            {
+                "name": "etherscan",
+                "url": "https://etherscan.io",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 3,
+        "type": "Ethereum",
+        "name": "Ropsten",
+        "color": "rgb(255, 65, 130)",
+        "network": "ropsten",
+        "fullName": "Ropsten Test Network",
+        "shortName": "rop",
+        "features": ["EIP1559"],
+        "nativeCurrency": {
+            "chainId": 3,
+            "name": "Ropsten Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "infoURL": "https://github.com/ethereum/ropsten",
+        "explorers": [
+            {
+                "name": "etherscan",
+                "url": "https://ropsten.etherscan.io",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 4,
+        "type": "Ethereum",
+        "name": "Rinkeby",
+        "color": "rgb(133, 89, 255)",
+        "network": "rinkeby",
+        "fullName": "Rinkeby",
+        "shortName": "rin",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 4,
+            "name": "Rinkeby Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "infoURL": "https://www.rinkeby.io",
+        "explorers": [
+            {
+                "name": "etherscan",
+                "url": "https://rinkeby.etherscan.io",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 5,
+        "type": "Ethereum",
+        "name": "Görli",
+        "color": "rgb(48, 153, 242)",
+        "network": "goerli",
+        "fullName": "Görli",
+        "shortName": "gor",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 5,
+            "name": "Görli Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "infoURL": "https://goerli.net/#about",
+        "explorers": [
+            {
+                "name": "etherscan",
+                "url": "https://goerli.etherscan.io",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 42,
+        "type": "Ethereum",
+        "name": "Kovan",
+        "color": "rgb(133, 89,255)",
+        "network": "kovan",
+        "fullName": "Kovan",
+        "shortName": "kov",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 42,
+            "name": "Kovan Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "infoURL": "https://kovan-testnet.github.io/website",
+        "explorers": [
+            {
+                "name": "etherscan",
+                "url": "https://kovan.etherscan.io",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 8453,
+        "type": "Base",
+        "name": "Base",
+        "color": "rgb(0, 82, 255)",
+        "network": "mainnet",
+        "fullName": "Base Mainnet",
+        "shortName": "base",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 8453,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "maxGasLimit": "7920026",
+        "infoURL": "https://base.org/",
+        "explorers": [
+            {
+                "name": "basescan",
+                "url": "https://basescan.org",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 84531,
+        "type": "Base",
+        "name": "Base Goerli",
+        "color": "rgb(0, 82, 255)",
+        "network": "testnet",
+        "fullName": "Base Goerli",
+        "shortName": "base",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 84531,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "infoURL": "https://base.org",
+        "explorers": [
+            {
+                "name": "basescan",
+                "url": "https://goerli.basescan.org",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 56,
+        "type": "Binance",
+        "name": "BNB",
+        "color": "rgb(240, 185, 10)",
+        "network": "mainnet",
+        "fullName": "BNB Chain",
+        "shortName": "bnb",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 56,
+            "name": "Binance Chain Native Token",
+            "symbol": "BNB",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/smartchain/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "maxGasLimit": "7920026",
+        "infoURL": "https://www.binance.org",
+        "explorers": [
+            {
+                "name": "bscscan",
+                "url": "https://bscscan.com",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 97,
+        "type": "Binance",
+        "name": "BNB",
+        "color": "rgb(240, 185, 10)",
+        "network": "chapel",
+        "fullName": "BNB Chain Testnet",
+        "shortName": "bnbt",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 97,
+            "name": "Binance Chain Native Token",
+            "symbol": "tBNB",
+            "decimals": 18
+        },
+        "infoURL": "https://testnet.binance.org/",
+        "explorers": [
+            {
+                "name": "bscscan-testnet",
+                "url": "https://testnet.bscscan.com",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 137,
+        "type": "Polygon",
+        "name": "Polygon",
+        "color": "rgb(119, 62, 225)",
+        "network": "mainnet",
+        "fullName": "Polygon",
+        "shortName": "polygon",
+        "features": ["EIP1559"],
+        "nativeCurrency": {
+            "chainId": 137,
+            "name": "POL",
+            "symbol": "POL",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/polygon/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "maxGasLimit": "7920026",
+        "infoURL": "https://polygon.technology/",
+        "explorers": [
+            {
+                "name": "polygonscan",
+                "url": "https://polygonscan.com",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 80001,
+        "type": "Polygon",
+        "name": "Polygon",
+        "color": "rgb(130, 71, 229)",
+        "network": "testnet",
+        "fullName": "Polygon",
+        "shortName": "maticmum",
+        "features": ["EIP1559"],
+        "nativeCurrency": {
+            "chainId": 80001,
+            "name": "MATIC",
+            "symbol": "MATIC",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/polygon/info/logo.png/quality=85"
+        },
+        "infoURL": "https://polygon.technology/",
+        "explorers": [
+            {
+                "name": "matic",
+                "url": "https://explorer-mumbai.maticvigil.com",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 42161,
+        "type": "Arbitrum",
+        "name": "Arbitrum",
+        "color": "rgb(36, 150, 238)",
+        "network": "mainnet",
+        "fullName": "Arbitrum One",
+        "shortName": "arb",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 42161,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "782919",
+        "minGasLimit": "21000",
+        "maxGasLimit": "7920026",
+        "infoURL": "https://arbitrum.io",
+        "explorers": [
+            {
+                "name": "arbitrum",
+                "url": "https://arbiscan.io",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 421611,
+        "type": "Arbitrum",
+        "name": "Arbitrum",
+        "color": "rgb(36, 150, 238)",
+        "network": "rinkeby",
+        "fullName": "Arbitrum Rinkeby",
+        "shortName": "arb-rinkeby",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 421611,
+            "name": "Arbitrum Rinkeby Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "infoURL": "https://arbitrum.io",
+        "explorers": [
+            {
+                "name": "arbitrum-rinkeby",
+                "url": "https://rinkeby-explorer.arbitrum.io",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 10,
+        "name": "Optimism",
+        "type": "Optimism",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 10,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "maxGasLimit": "7920026",
+        "infoURL": "https://optimistic.etherscan.io/",
+        "fullName": "Optimism",
+        "shortName": "op",
+        "explorers": [
+            {
+                "name": "optimisc",
+                "url": "https://optimistic.etherscan.io/"
+            }
+        ]
+    },
+    {
+        "chainId": 69,
+        "name": "Optimism Testnet Kovan",
+        "type": "Optimism",
+        "network": "testnet",
+        "rpc": ["https://kovan.optimism.io/"],
+        "fullName": "Optimism Kovan",
+        "faucets": [],
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 69,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "infoURL": "https://optimism.io",
+        "shortName": "kor",
+        "explorers": [
+            {
+                "name": "Optimism Kovan",
+                "url": "https://optimistic.etherscan.io/"
+            }
+        ]
+    },
+    {
+        "chainId": 420,
+        "name": "Optimism Goerli Testnet",
+        "type": "Optimism",
+        "network": "testnet",
+        "rpc": ["https://goerli.optimism.io/"],
+        "faucets": [],
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 420,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "infoURL": "https://optimism.io",
+        "shortName": "gor"
+    },
+    {
+        "chainId": 100,
+        "type": "xDai",
+        "name": "Gnosis",
+        "fullName": "Gnosis",
+        "color": "rgb(73, 169, 166)",
+        "network": "mainnet",
+        "shortName": "xDai",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 100,
+            "name": "xDAI",
+            "symbol": "xDAI",
+            "decimals": 18
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "maxGasLimit": "7920026",
+        "infoURL": "https://blockscout.com/xdai/mainnet",
+        "explorers": [
+            {
+                "name": "Gnosis",
+                "url": "https://blockscout.com/xdai/mainnet/"
+            }
+        ]
+    },
+    {
+        "chainId": 534352,
+        "type": "Scroll",
+        "name": "Scroll",
+        "network": "mainnet",
+        "fullName": "Scroll",
+        "shortName": "Scroll",
+        "rpc": ["https://rpc.scroll.io"],
+        "faucets": [],
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 534352,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://scrollscan.com/",
+        "explorers": [
+            {
+                "name": "blockscout",
+                "url": "https://scrollscan.com/",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 42220,
+        "type": "Celo",
+        "name": "CELO",
+        "network": "mainnet",
+        "shortName": "CELO",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 42220,
+            "name": "CELO",
+            "symbol": "CELO",
+            "decimals": 18,
+            "address": "0x471ece3750da237f93b8e339c536989b8978a438"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "maxGasLimit": "7920026",
+        "infoURL": "https://explorer.celo.org/",
+        "explorers": [
+            {
+                "name": "Celo",
+                "url": "https://celoscan.io/"
+            }
+        ]
+    },
+    {
+        "chainId": 43114,
+        "type": "Avalanche",
+        "name": "Avalanche",
+        "color": "rgb(232, 65, 66)",
+        "network": "mainnet",
+        "shortName": "AVAX",
+        "fullName": "Avalanche C-Chain",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 43114,
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/avalanchec/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "maxGasLimit": "7920026",
+        "infoURL": "https://snowtrace.dev/",
+        "explorers": [
+            {
+                "name": "snowtrace",
+                "url": "https://snowtrace.dev/",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 43113,
+        "type": "Avalanche",
+        "name": "AVAX",
+        "color": "rgb(232, 65, 66)",
+        "network": "testnet",
+        "fullName": "Avalanche Fuji Testnet",
+        "shortName": "Fuji",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 43113,
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "decimals": 18
+        },
+        "infoURL": "https://cchain.explorer.avax-test.network",
+        "explorers": [
+            {
+                "name": "Avalanche",
+                "url": "https://testnet.snowtrace.io/"
+            }
+        ]
+    },
+    {
+        "chainId": 1313161554,
+        "type": "Aurora",
+        "name": "Aurora",
+        "color": "rgb(112, 212, 74)",
+        "network": "mainnet",
+        "fullName": "Aurora Mainnet",
+        "shortName": "aurora",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 1313161554,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://aurora.dev",
+        "explorers": [
+            {
+                "name": "Blockscout",
+                "url": "https://explorer.mainnet.aurora.dev/",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 1313161555,
+        "type": "Aurora",
+        "name": "Aurora",
+        "color": "rgb(112, 212, 74)",
+        "network": "testnet",
+        "fullName": "Aurora Testnet",
+        "shortName": "aurora-testnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 1313161555,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "infoURL": "https://aurora.dev",
+        "explorers": [
+            {
+                "name": "Aurora",
+                "url": "https://aurorascan.dev/"
+            }
+        ]
+    },
+    {
+        "chainId": 1313161556,
+        "type": "Aurora",
+        "name": "Aurora",
+        "color": "rgb(112, 212, 74)",
+        "network": "betanet",
+        "fullName": "Aurora Betanet",
+        "shortName": "aurora-betanet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 1313161556,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "infoURL": "https://aurora.dev",
+        "explorers": [
+            {
+                "name": "Aurora",
+                "url": "https://aurorascan.dev/"
+            }
+        ]
+    },
+    {
+        "chainId": 1030,
+        "type": "Conflux",
+        "name": "Conflux",
+        "network": "mainnet",
+        "fullName": "Conflux eSpace",
+        "shortName": "Conflux",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 1030,
+            "name": "CFX",
+            "symbol": "CFX",
+            "decimals": 18
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://evm.confluxscan.net",
+        "explorers": [
+            {
+                "name": "Confluxs",
+                "url": "https://evm.confluxscan.net/"
+            }
+        ]
+    },
+    {
+        "chainId": 71,
+        "type": "Conflux",
+        "name": "Conflux",
+        "network": "testnet",
+        "shortName": "Conflux",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 71,
+            "name": "CFX",
+            "symbol": "CFX",
+            "decimals": 18
+        },
+        "infoURL": "https://confluxnetwork.org",
+        "explorers": [
+            {
+                "name": "Conflux",
+                "url": "https://evmtestnet.confluxscan.net/"
+            }
+        ]
+    },
+    {
+        "chainId": 592,
+        "type": "Astar",
+        "name": "Astar",
+        "network": "mainnet",
+        "fullName": "Astar",
+        "shortName": "Astar",
+        "rpc": ["https://evm.astar.network"],
+        "faucets": [],
+        "features": ["EIP1559"],
+        "nativeCurrency": {
+            "chainId": 592,
+            "name": "ASTAR",
+            "symbol": "ASTR",
+            "decimals": 18,
+            "logoURL": "https://static.debank.com/image/chain/logo_url/astar/398c7e0014bdada3d818367a7273fabe.png"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://blockscout.com/astar/",
+        "explorers": [
+            {
+                "name": "blockscout",
+                "url": "https://blockscout.com/astar/",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 250,
+        "type": "Fantom",
+        "name": "Fantom",
+        "fullName": "Fantom Opera",
+        "network": "mainnet",
+        "shortName": "ftm",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 250,
+            "name": "Fantom",
+            "symbol": "FTM",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/fantom/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://fantom.foundation",
+        "explorers": [
+            {
+                "name": "ftmscan",
+                "url": "https://ftmscan.com",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 196,
+        "type": "XLayer",
+        "name": "X Layer",
+        "fullName": "X Layer",
+        "network": "mainnet",
+        "shortName": "xlayer",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 196,
+            "name": "OKB",
+            "symbol": "OKB",
+            "decimals": 18,
+            "logoURL": "https://static.okx.com/cdn/wallet/logo/okb.png?x-oss-process=image/format,webp/ignore-error,1"
+        },
+        "infoURL": "https://www.okx.com/web3",
+        "explorers": [
+            {
+                "name": "X Layer explorer",
+                "url": "https://www.okx.com/explorer/xlayer",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 195,
+        "type": "XLayer",
+        "name": "X Layer Testnet",
+        "fullName": "X Layer Testnet",
+        "network": "testnet",
+        "shortName": "xlayer",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 195,
+            "name": "OKB",
+            "symbol": "OKB",
+            "decimals": 18,
+            "logoURL": "https://static.okx.com/cdn/wallet/logo/okb.png?x-oss-process=image/format,webp/ignore-error,1"
+        },
+        "infoURL": "https://www.okx.com/web3",
+        "explorers": [
+            {
+                "name": "X Layer explorer",
+                "url": "https://www.okx.com/explorer/xlayer-test",
+                "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "chainId": 25,
+        "name": "Cronos",
+        "type": "Cronos Mainnet Beta",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 25,
+            "name": "Cronos",
+            "symbol": "CRO",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/cronos/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://cronos.org/",
+        "shortName": "cro"
+    },
+    {
+        "chainId": 50,
+        "name": "XDC Network",
+        "type": "XDC Network",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 50,
+            "name": "XinFin",
+            "symbol": "XDC",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/xdc/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://xinfin.org/",
+        "shortName": "xdc xinfin",
+        "explorers": [
+            {
+                "name": "XDC Network",
+                "url": "https://xdcscan.io/"
+            }
+        ]
+    },
+    {
+        "chainId": 52,
+        "name": "CoinEx Smart Chain Mainnet",
+        "type": "CoinEx Smart Chain Mainnet",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 52,
+            "name": "CoinEx Chain Native Token",
+            "symbol": "cet",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/xdc/cet/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://www.coinex.org/",
+        "shortName": "cet",
+        "explorers": [
+            {
+                "name": "CoinEx Smart Chain Mainnet",
+                "url": "https://www.coinex.net/"
+            }
+        ]
+    },
+    {
+        "chainId": 57,
+        "name": "Syscoin Mainnet",
+        "type": "Syscoin Mainnet",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 57,
+            "name": "Syscoin",
+            "symbol": "SYS",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/syscoin/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://www.syscoin.org",
+        "shortName": "sys",
+        "explorers": [
+            {
+                "name": "Syscoin Mainnet",
+                "url": "https://explorer.syscoin.org/"
+            }
+        ]
+    },
+    {
+        "chainId": 66,
+        "name": "OKX",
+        "type": "OKX",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 66,
+            "name": "OKT",
+            "symbol": "OKT",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/okt/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://www.okex.com/okc",
+        "shortName": "okt"
+    },
+    {
+        "chainId": 82,
+        "name": "Meter Mainnet",
+        "type": "Meter Mainnet",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 82,
+            "name": "Meter",
+            "symbol": "MTR",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/meter/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://www.meter.io",
+        "shortName": "Meter",
+        "explorers": [
+            {
+                "name": "Meter Mainnet",
+                "url": "https://scan.meter.io/"
+            }
+        ]
+    },
+    {
+        "chainId": 88,
+        "name": "TomoChain",
+        "type": "TomoChain",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 88,
+            "name": "TomoChain",
+            "symbol": "TOMO",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/tomochain/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://tomochain.com",
+        "shortName": "tomo"
+    },
+    {
+        "chainId": 96,
+        "name": "NEXT Smart Chain",
+        "type": "NEXT Smart Chain",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 96,
+            "name": "NEXT",
+            "symbol": "NEXT",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/nsc/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://www.nextsmartchain.com/",
+        "shortName": "nsc",
+        "explorers": [
+            {
+                "name": "NEXT Smart Chain",
+                "url": "https://explorer.nextsmartchain.com/"
+            }
+        ]
+    },
+    {
+        "chainId": 106,
+        "name": "Velas EVM Mainnet",
+        "type": "Velas EVM Mainnet",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 106,
+            "name": "Velas",
+            "symbol": "VLX",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/vlx/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://velas.com",
+        "shortName": "vlx",
+        "explorers": [
+            {
+                "name": "Velas EVM Mainnet",
+                "url": "https://evmexplorer.velas.com/"
+            }
+        ]
+    },
+    {
+        "chainId": 108,
+        "name": "ThunderCore Mainnet",
+        "type": "ThunderCore Mainnet",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 108,
+            "name": "ThunderCore Token",
+            "symbol": "TT",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/tt/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://thundercore.com",
+        "shortName": "TT",
+        "explorers": [
+            {
+                "name": "ThunderCore Mainnet",
+                "url": "https://viewblock.io/thundercore/"
+            }
+        ]
+    },
+    {
+        "chainId": 122,
+        "name": "Fuse Mainnet",
+        "type": "Fuse Mainnet",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 122,
+            "name": "Fuse",
+            "symbol": "FUSE",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/fuse/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://fuse.io/",
+        "shortName": "fuse"
+    },
+    {
+        "chainId": 128,
+        "name": "HECO",
+        "type": "HECO",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 128,
+            "name": "HECO",
+            "symbol": "HT",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/heco/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://www.hecochain.com",
+        "shortName": "heco",
+        "explorers": [
+            {
+                "name": "HECO",
+                "url": "https://www.hecoinfo.com/en-us/"
+            }
+        ]
+    },
+    {
+        "chainId": 199,
+        "name": "BitTorrent Chain Mainnet",
+        "type": "BitTorrent Chain Mainnet",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 199,
+            "name": "BitTorrent",
+            "symbol": "BTT",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/btt/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://bittorrentchain.io/",
+        "shortName": "BTT"
+    },
+    {
+        "chainId": 288,
+        "name": "Boba Network",
+        "type": "Boba Network",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 288,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://boba.network",
+        "shortName": "Boba",
+        "explorers": [
+            {
+                "name": "Boba Network",
+                "url": "https://bobascan.com/"
+            }
+        ]
+    },
+    {
+        "chainId": 321,
+        "name": "KCC Mainnet",
+        "type": "KCC Mainnet",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 321,
+            "name": "KuCoin Token",
+            "symbol": "KCS",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/kcc/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://kcc.io",
+        "shortName": "kcs",
+        "explorers": [
+            {
+                "name": "KCC Mainnet",
+                "url": "https://explorer.kcc.io/en/"
+            }
+        ]
+    },
+    {
+        "chainId": 361,
+        "name": "Theta Mainnet",
+        "type": "Theta Mainnet",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 361,
+            "name": "Theta Fuel",
+            "symbol": "TFUEL",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/theta/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://www.thetatoken.org/",
+        "shortName": "theta-mainnet",
+        "explorers": [
+            {
+                "name": "Theta Mainnet",
+                "url": "https://explorer.thetatoken.org/"
+            }
+        ]
+    },
+    {
+        "chainId": 530,
+        "name": "Function X",
+        "type": "Function X",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 57,
+            "name": "FX",
+            "symbol": "FX",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/fx/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://functionx.io/",
+        "shortName": "Function X",
+        "explorers": [
+            {
+                "name": "Function X",
+                "url": "https://explorer.functionx.io/"
+            }
+        ]
+    },
+    {
+        "chainId": 1088,
+        "name": "Metis",
+        "type": "Metis",
+        "network": "mainnet",
+        "fullName": "Metis",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 1088,
+            "name": "Metis",
+            "symbol": "METIS",
+            "decimals": 18,
+            "logoURL": "https://bridge.metis.io/static/media/logo.f1bdb422692299f1b236d7144106b7af.svg"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://www.metis.io",
+        "shortName": "metis-andromeda",
+        "explorers": [
+            {
+                "name": "Metis",
+                "url": "https://andromeda-explorer.metis.io/"
+            }
+        ]
+    },
+    {
+        "chainId": 1329,
+        "name": "Sei",
+        "type": "Sei",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 1329,
+            "name": "Sei",
+            "symbol": "SEI",
+            "decimals": 18,
+            "logoURL": "https://dzyb4dm7r8k8w.cloudfront.net/prod/logos/0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE/logo.png"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://www.sei.io/",
+        "shortName": "Sei",
+        "explorers": [
+            {
+                "name": "SeiTrace",
+                "url": "https://seitrace.com/"
+            }
+        ]
+    },
+    {
+        "chainId": 1284,
+        "name": "Moonbeam",
+        "type": "Moonbeam",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 1284,
+            "name": "Glimmer",
+            "symbol": "GLMR",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/moonbeam/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://moonbeam.network/networks/moonbeam/",
+        "shortName": "mbeam",
+        "explorers": [
+            {
+                "name": "Moonbeam",
+                "url": "https://moonbeam.moonscan.io/"
+            }
+        ]
+    },
+    {
+        "chainId": 1285,
+        "name": "Moonriver",
+        "type": "Moonriver",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 1285,
+            "name": "Moonriver",
+            "symbol": "MOVR",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/moonriver/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://moonbeam.network/networks/moonriver/",
+        "shortName": "mriver",
+        "explorers": [
+            {
+                "name": "Moonriver",
+                "url": "https://moonriver.moonscan.io/"
+            }
+        ]
+    },
+    {
+        "chainId": 7700,
+        "name": "Canto",
+        "type": "Canto",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 7700,
+            "name": "Canto",
+            "symbol": "CANTO",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/canto/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://canto.io",
+        "shortName": "canto",
+        "explorers": [
+            {
+                "name": "Canto",
+                "url": "https://evm.explorer.canto.io/"
+            }
+        ]
+    },
+    {
+        "chainId": 9001,
+        "name": "Evmos",
+        "type": "Evmos",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 9001,
+            "name": "Evmos",
+            "symbol": "EVMOS",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/evmos/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://evmos.org",
+        "shortName": "evmos",
+        "explorers": [
+            {
+                "name": "Evmos",
+                "url": "https://escan.live/"
+            }
+        ]
+    },
+    {
+        "chainId": 42170,
+        "name": "Arbitrum Nova",
+        "type": "Arbitrum Nova",
+        "shortName": "arb-nova",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 42170,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://arbitrum.io",
+        "explorers": [
+            {
+                "name": "Arbitrum Nova",
+                "url": "https://nova-explorer.arbitrum.io/"
+            }
+        ]
+    },
+    {
+        "chainId": 42262,
+        "name": "Oasis",
+        "type": "Oasis",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 42262,
+            "name": "Emerald Rose",
+            "symbol": "ROSE",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/oasis/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://docs.oasis.dev/general/developer-resources/overview",
+        "shortName": "emerald",
+        "explorers": [
+            {
+                "name": "Oasis",
+                "url": "https://explorer.emerald.oasis.dev/"
+            }
+        ]
+    },
+    {
+        "chainId": 7777777,
+        "name": "Zora",
+        "type": "Zora",
+        "network": "mainnet",
+        "features": [],
+        "nativeCurrency": {
+            "chainId": 42262,
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURL": "https://imagedelivery.net/PCnTHRkdRhGodr0AWBAvMA/Assets/blockchains/ethereum/info/logo.png/quality=85"
+        },
+        "defaultGasLimit": "90000",
+        "minGasLimit": "21000",
+        "infoURL": "https://zora.co/",
+        "shortName": "Zora",
+        "explorers": [
+            {
+                "name": "Zora Superscan",
+                "url": "https://zora.superscan.network/"
+            }
+        ]
+    }
+]

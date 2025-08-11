@@ -1,0 +1,24 @@
+{
+  "extends": "../../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "../dist/background/",
+    "tsBuildInfoFile": "../dist/background.tsbuildinfo",
+    // MV3 = WebWorker, MV2 = DOM
+    // but we cannot build the same code in two env
+    "lib": ["ESNext", "WebWorker", "DOM.Iterable"]
+  },
+  "include": ["./"],
+  "references": [
+    { "path": "../shared/tsconfig.json" },
+    { "path": "../utils-pure/tsconfig.json" },
+    { "path": "../../encryption/tsconfig.json" },
+    { "path": "../../mask-sdk/server/tsconfig.json" },
+    { "path": "../../backup-format/tsconfig.json" },
+    { "path": "../../gun-utils/tsconfig.json" },
+    { "path": "../../flags/tsconfig.json" },
+    { "path": "../../web3-telemetry/tsconfig.json" },
+    { "path": "../../web3-providers/tsconfig.json" },
+    { "path": "../../sandboxed-plugin-runtime/src/background/tsconfig.json" }
+  ]
+}

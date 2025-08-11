@@ -1,0 +1,12 @@
+diff --git a/package.json b/package.json
+index c18b58974fd578cb03b735005d964870f9a54cd9..3527ab196aae2eef2469e0bcba12afe60df6f28d 100644
+--- a/package.json
++++ b/package.json
+@@ -1,6 +1,7 @@
+ {
+     "name": "@types/react-highlight-words",
+     "version": "0.20.0",
++    "type": "module",
+     "description": "TypeScript definitions for react-highlight-words",
+     "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-highlight-words",
+     "license": "MIT",

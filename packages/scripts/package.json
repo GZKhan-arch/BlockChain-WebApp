@@ -1,0 +1,40 @@
+{
+  "name": "@masknet/cli",
+  "version": "0.0.0",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "bin": {
+    "build": "./src/bin/build.mjs",
+    "dev": "./src/bin/dev.mjs",
+    "__build": "./src/bin/build.ts",
+    "__dev": "./src/bin/dev.ts",
+    "build-rspack": "./src/bin/build-rspack.mjs",
+    "dev-rspack": "./src/bin/dev-rspack.mjs",
+    "__build_rspack": "./src/bin/build-rspack.ts",
+    "__dev_rspack": "./src/bin/dev-rspack.ts"
+  },
+  "dependencies": {
+    "@masknet/static-module-record-swc": "^0.6.0",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.4.2",
+    "proper-lockfile": "^4.1.2",
+    "rimraf": "^5.0.7",
+    "source-map": "^0.7.4",
+    "typechain": "^8.3.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.1.4",
+    "@rspack/core": "^1.1.4",
+    "@types/fs-extra": "^11.0.4",
+    "@types/gulp": "^4.0.17",
+    "@types/node": "22.10.0",
+    "@types/proper-lockfile": "^4.1.4",
+    "@types/yargs": "^17.0.33",
+    "gulp-cli": "^3.0.0",
+    "web-ext": "^8.3.0"
+  }
+}

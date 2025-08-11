@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" viewBox="0 0 24 25">
+    <linearGradient id="Web3ProfileCard_svg__a">
+        <stop offset="0" stop-color="#0041b9"/>
+        <stop offset="1" stop-color="#1c68f3"/>
+    </linearGradient>
+    <linearGradient xlink:href="#Web3ProfileCard_svg__a" id="Web3ProfileCard_svg__b" x1="7.302" x2="7.302" y1="3.448" y2="8.288" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="Web3ProfileCard_svg__c" x1="1" x2="23" y1="14.881" y2="14.881" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#1c68f3" stop-opacity=".2"/>
+        <stop offset="1" stop-color="#2d29fd" stop-opacity=".2"/>
+    </linearGradient>
+    <linearGradient id="Web3ProfileCard_svg__d" x1="12" x2="12" y1="7.672" y2="22.091" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+        <stop offset="1" stop-color="#fff" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient xlink:href="#Web3ProfileCard_svg__a" id="Web3ProfileCard_svg__e" x1="15.277" x2="15.277" y1="12.77" y2="18.345" gradientUnits="userSpaceOnUse"/>
+    <linearGradient id="Web3ProfileCard_svg__f" x1="17.304" x2="21.359" y1="17.331" y2="17.331" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#43e97b"/>
+        <stop offset="1" stop-color="#38f9d7"/>
+    </linearGradient>
+    <circle cx="7.302" cy="5.868" r="2.42" fill="url(#Web3ProfileCard_svg__b)"/>
+    <rect width="22" height="14.419" x="1" y="7.672" fill="#fff" rx="2"/>
+    <rect width="22" height="14.419" x="1" y="7.672" fill="url(#Web3ProfileCard_svg__c)" rx="2"/>
+    <rect width="22" height="14.419" x="1" y="7.672" fill="url(#Web3ProfileCard_svg__d)" rx="2"/>
+    <path fill="url(#Web3ProfileCard_svg__e)" d="m16.156 18.345-.892-4.061-.902 4.061h-1.544l-1.596-5.575h1.596l.886 4 .82-4h1.506l.866 4.015.887-4.015h1.549l-1.648 5.575z"/>
+    <path fill="url(#Web3ProfileCard_svg__f)" d="M18.67 15.802q-.194.217-.186.58H17.41q.015-.366.15-.696.141-.288.444-.533.226-.172.538-.264a2.7 2.7 0 0 1 .764-.092q.84 0 1.354.367.518.363.518.977 0 .435-.307.734-.195.186-.405.254.158 0 .453.228.44.342.44.937 0 .624-.517 1.1-.513.472-1.524.472-1.245 0-1.73-.683-.255-.363-.283-.95h1.132q0 .296.113.489.21.356.764.356a.94.94 0 0 0 .59-.193q.255-.198.255-.564 0-.486-.469-.649-.267-.09-.84-.091v-.693q.56-.007.784-.091.384-.144.384-.578a.59.59 0 0 0-.199-.458q-.193-.176-.55-.176-.408 0-.598.217z"/>
+</svg>

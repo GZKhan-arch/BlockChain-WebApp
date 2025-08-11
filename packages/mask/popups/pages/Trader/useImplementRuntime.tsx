@@ -1,0 +1,77 @@
+import { Trans } from '@lingui/react/macro'
+import { useSupportedChains, useTrade, type ShowTooltipOptions } from '@masknet/plugin-trader'
+import { usePopupCustomSnackbar } from '@masknet/theme'
+import type { Web3Helper } from '@masknet/web3-helpers'
+import { TokenType } from '@masknet/web3-shared-base'
+import { isNativeTokenAddress, SchemaType, type ChainId } from '@masknet/web3-shared-evm'
+import { useCallback, useMemo } from 'react'
+import { AssetSource } from '../../components/index.js'
+import { usePopupTheme } from '../../hooks/usePopupTheme.js'
+import { ChooseTokenModal, ConfirmModal } from '../../modals/modal-controls.js'
+
+export function useImplementRuntime() {
+    const chainQuery = useSupportedChains()
+    const { mode, chainId, fromToken } = useTrade()
+    const isSwap = mode === 'swap'
+    const fromChainId = fromToken?.chainId as ChainId
+    const theme = usePopupTheme()
+    const pickToken = useCallback(
+        async (
+            currentToken: Web3Helper.FungibleTokenAll | null | undefined,
+            side: 'from' | 'to',
+            excludes: Web3Helper.FungibleTokenAll[],
+        ): Promise<Web3Helper.FungibleTokenAll | null> => {
+            const supportedChains = chainQuery.data ?? (await chainQuery.refetch()).data
+
+            const picked = await ChooseTokenModal.openAndWaitForClose({
+                title: <Trans>Select</Trans>,
+                // Only from token can decide the chain
+                chainId: ((isSwap ? fromChainId : currentToken?.chainId) || chainId) as ChainId,
+                address: currentToken?.address,
+                chains: supportedChains?.map((x) => x.chainId),
+                lockChainId: isSwap && side === 'to' && !!fromChainId,
+                assetSource: AssetSource.Okx,
+            })
+            if (!picked || Array.isArray(picked)) return null
+            return {
+                id: picked.address,
+                chainId: picked.chainId,
+                type: TokenType.Fungible,
+                name: picked.name,
+                symbol: picked.symbol,
+                decimals: picked.decimals,
+                schema: isNativeTokenAddress(picked.address) ? SchemaType.Native : SchemaType.ERC20,
+                address: picked.address,
+            }
+        },
+        [isSwap, chainQuery.data, fromChainId],
+    )
+
+    const showToolTip = useCallback(
+        ({ title, message }: ShowTooltipOptions) => {
+            ConfirmModal.open({
+                title,
+                message,
+                disableConfirmButton: true,
+                messageProps: {
+                    style: {
+                        textAlign: 'left',
+                        fontSize: '15px',
+                        lineHeight: '20px',
+                        fontWeight: 400,
+                        color: theme.palette.maskColor.main,
+                        marginTop: 16,
+                    },
+                },
+            })
+        },
+        [theme.palette.maskColor.main],
+    )
+
+    const { showSnackbar } = usePopupCustomSnackbar()
+
+    return useMemo(
+        () => ({ pickToken, basePath: '/trader', showToolTip, showSnackbar }),
+        [pickToken, showToolTip, showSnackbar],
+    )
+}

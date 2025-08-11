@@ -1,0 +1,101 @@
+# Copy and rename this file to dev-preference
+# This dot file will NOT be used in CI or production build.
+
+### Experimental CSP
+
+; csp=false
+# (default) Not enabling strict CSP.
+
+; csp=true
+# Enable strict CSP.
+
+### SourceMap
+
+; sourceMap=true
+# (default) Uses suggested sourceMap in the current build set.
+
+; sourceMap=false
+# Disables the sourceMap.
+
+; sourceMap=eval
+; sourceMap=eval-cheap-source-map
+; sourceMap=eval-cheap-module-source-map
+; sourceMap=eval-source-map
+; sourceMap=cheap-source-map
+; sourceMap=cheap-module-source-map
+; sourceMap=source-map
+; sourceMap=inline-cheap-source-map
+; sourceMap=inline-cheap-module-source-map
+; sourceMap=inline-source-map
+# sourceMap=...
+# Any valid value listed in https://webpack.js.org/configuration/devtool/, but it might not work in our environment.
+
+### SourceMap hide frameworks
+
+; sourceMapHideFrameworks=true
+# (default) Hide frameworks in sourceMap.
+
+; sourceMapHideFrameworks=false
+# Show frameworks in sourceMap.
+
+### Preferred Manifest Version
+
+; manifest=3
+# (default) Use Chromium Manifest V3 as default development target.
+
+; manifest=2
+# Use Chromium Manifest V2 as default development target.
+
+; manifest=chromium-mv2
+; manifest=chromium-beta-mv3
+; manifest=chromium-mv3
+; manifest=firefox-mv2
+; manifest=firefox-mv3
+; manifest=safari-mv3
+
+### Hot Module Reload
+
+; hmr=true
+# (default) Enable Hot Module Reload in development mode.
+
+; hmr=false
+# Disable Hot Module Reload in development mode.
+
+### Devtools integration
+
+; devtools=true
+# (default) Enable Devtools integration in development mode.
+
+; devtools=false
+# Disable Devtools integration in development mode.
+
+### React devtools default editor
+
+; devtoolsEditorURI=vscode://file/{path}:{line}
+; devtoolsEditorURI=mvim://open?url=file://{path}&line={line}
+; devtoolsEditorURI=raycast://script-commands/your-custom-script?arguments={path}&arguments={line}
+# (default) VSCode
+
+# devtoolsEditorURI=...
+# Any URI that can open the editor you used.
+
+### Experimental React compiler
+
+; reactCompiler=false
+# (default) Not enabling react compiler.
+
+; reactCompiler=true
+# Enable react compiler.
+
+; reactCompiler=infer
+; reactCompiler=annotation
+; reactCompiler=all
+# Enable react compiler with specific mode.
+
+### Experimental LavaMoat
+
+; lavamoat=false
+# (default) Not enabling LavaMoat.
+
+; lavamoat=true
+# Enable LavaMoat.

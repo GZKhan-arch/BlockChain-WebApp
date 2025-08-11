@@ -1,0 +1,36 @@
+{
+    "name": "Mask Network",
+    "version": "0",
+    "manifest_version": 3,
+    "permissions": ["storage", "webNavigation", "activeTab", "scripting"],
+    "optional_permissions": ["notifications", "clipboardRead"],
+    "optional_host_permissions": ["<all_urls>"],
+    "background": { "service_worker": "/manifest-v3.entry.js" },
+    "icons": {
+        "16": "assets/16x16.png",
+        "48": "assets/48x48.png",
+        "128": "assets/128x128.png",
+        "256": "assets/256x256.png"
+    },
+    "action": { "default_popup": "popups.html" },
+    "homepage_url": "https://mask.io",
+    "description": "The portal to the new & open Internet. Send encrypted message and decentralized Apps right on top of social networks.",
+    "web_accessible_resources": [
+        {
+            "resources": ["js/*", "bundled/*", "entry/*", "*.svg", "*.png", "*.css", "build-info.json"],
+            "matches": ["<all_urls>"],
+            "use_dynamic_url": false
+        },
+        {
+            "resources": ["hot/*"],
+            "matches": ["<all_urls>"],
+            "use_dynamic_url": false
+        }
+    ],
+    "minimum_chrome_version": "115",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{0e57e2ae-3e13-4d5d-9243-6159219852a6}"
+        }
+    }
+}

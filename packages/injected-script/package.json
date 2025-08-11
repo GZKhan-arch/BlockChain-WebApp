@@ -1,0 +1,31 @@
+{
+  "name": "@masknet/injected-script",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "sideEffects": [
+    "./sdk/index.ts",
+    "./main/**"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/sdk/index.d.ts",
+      "mask-src": "./sdk/index.ts",
+      "default": "./dist/sdk/index.js"
+    },
+    "./shared": {
+      "types": "./dist/shared/index.d.ts",
+      "mask-src": "./shared/index.ts",
+      "default": "./dist/shared/index.js"
+    }
+  },
+  "types": "./dist/sdk/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "devDependencies": {
+    "rollup": "^4.27.4",
+    "rollup-plugin-swc3": "^0.12.1"
+  }
+}

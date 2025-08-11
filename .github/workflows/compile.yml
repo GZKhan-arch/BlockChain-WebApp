@@ -1,0 +1,106 @@
+name: Compile
+
+on:
+  push:
+    tags: ["v*"]
+    branches: [master, develop, released, hotfix/*, release/*]
+  pull_request:
+    branches: [master, develop, released, hotfix/*, release/*]
+  merge_group:
+    types: [checks_requested]
+
+permissions:
+  contents: write
+  pull-requests: read
+  packages: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.head_ref || github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      WEB3_CONSTANTS_RPC: ${{ secrets.WEB3_CONSTANTS_RPC }}
+      MASK_SENTRY_DSN: ${{ secrets.MASK_SENTRY_DSN }}
+      MASK_SENTRY: ${{ secrets.MASK_SENTRY }}
+      MASK_MIXPANEL: ${{ secrets.MASK_MIXPANEL }}
+    steps:
+      - name: Get cache date
+        id: get-date
+        run: echo "date=$(/bin/date -u "+%Y%m%d")" >> $GITHUB_STATE
+        shell: bash
+      # note: required by sentry
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".node-version"
+          cache: 'pnpm'
+      - name: Authenticate NPM
+        uses: DimensionDev/github-token-action@latest
+        with:
+            registry: true
+      - run: git config --global url."https://github.com/".insteadOf git@github.com
+      - run: pnpm install
+      - run: npx gulp build-ci
+      # See https://github.com/getsentry/action-release/issues/187
+      - name: Change git configuration
+        shell: bash
+        run: |
+          if [ -n "$(git config --get extensions.worktreeconfig)" ]; then
+            git config --unset-all extensions.worktreeconfig
+          fi
+      - name: Create Sentry release
+        uses: getsentry/action-release@v1
+        if: github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/released'
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+          SENTRY_ORG: mask-network
+          SENTRY_PROJECT: mask-network
+        with:
+          environment: production
+          sourcemaps: ./build
+          version_prefix: mask-
+          ignore_missing: true
+      - name: Upload `MaskNetwork.chromium-mv2.zip`
+        uses: actions/upload-artifact@v4
+        with:
+          name: MaskNetwork.chromium-mv2.zip
+          path: masknetwork.chromium-mv2.zip
+          if-no-files-found: error
+      - name: Upload `MaskNetwork.chromium-beta.zip`
+        uses: actions/upload-artifact@v4
+        with:
+          name: MaskNetwork.chromium-beta.zip
+          path: masknetwork.chromium-beta.zip
+          if-no-files-found: error
+      - name: Upload `MaskNetwork.chromium-mv3.zip`
+        uses: actions/upload-artifact@v4
+        with:
+          name: MaskNetwork.chromium-mv3.zip
+          path: masknetwork.chromium-mv3.zip
+          if-no-files-found: error
+      - name: Upload `MaskNetwork.firefox-mv2.zip`
+        uses: actions/upload-artifact@v4
+        with:
+          name: MaskNetwork.firefox-mv2.zip
+          path: masknetwork.firefox-mv2.zip
+          if-no-files-found: error
+      - name: Upload `MaskNetwork.firefox-mv3.zip`
+        uses: actions/upload-artifact@v4
+        with:
+          name: MaskNetwork.firefox-mv3.zip
+          path: masknetwork.firefox-mv3.zip
+          if-no-files-found: error
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        if: startsWith(github.ref, 'refs/tags/v')
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            *.zip

@@ -1,0 +1,22 @@
+{
+    "ETHERSCAN_URL": {
+        "Mainnet": "https://etherscan-proxy.r2d2.to",
+        "BSC": "https://etherscan-proxy.r2d2.to",
+        "Base": "https://etherscan-proxy.r2d2.to",
+        "Polygon": "https://etherscan-proxy.r2d2.to",
+        "Arbitrum": "https://etherscan-proxy.r2d2.to",
+        "xDai": "https://etherscan-proxy.r2d2.to",
+        "Optimism": "https://etherscan-proxy.r2d2.to",
+        "Optimism_Kovan": "https://etherscan-proxy.r2d2.to",
+        "Optimism_Goerli": "https://etherscan-proxy.r2d2.to",
+        "Avalanche": "https://etherscan-proxy.r2d2.to",
+        "Avalanche_Fuji": "https://etherscan-proxy.r2d2.to",
+        "Celo": "https://etherscan-proxy.r2d2.to",
+        "Fantom": "https://etherscan-proxy.r2d2.to",
+        "Aurora": "https://etherscan-proxy.r2d2.to",
+        "Aurora_Testnet": "https://etherscan-proxy.r2d2.to",
+        "Conflux": "https://etherscan-proxy.r2d2.to",
+        "Astar": "https://etherscan-proxy.r2d2.to",
+        "Scroll": "https://etherscan-proxy.r2d2.to"
+    }
+}

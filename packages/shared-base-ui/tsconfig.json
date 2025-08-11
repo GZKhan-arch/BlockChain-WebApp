@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src/",
+    "outDir": "./dist/",
+    "tsBuildInfoFile": "./dist/.tsbuildinfo"
+  },
+  "include": ["./src", "./src/**/*.json"],
+  // Only type-level dependency.
+  "references": [
+    { "path": "../shared-base/tsconfig.json" },
+    { "path": "../flags/tsconfig.json" },
+    { "path": "../theme/tsconfig.json" }
+  ]
+}

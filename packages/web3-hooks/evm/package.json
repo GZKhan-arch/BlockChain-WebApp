@@ -1,0 +1,26 @@
+{
+  "name": "@masknet/web3-hooks-evm",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "mask-src": "./src/index.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "@masknet/shared-base": "workspace:^",
+    "@masknet/web3-contracts": "workspace:^",
+    "@masknet/web3-helpers": "workspace:^",
+    "@masknet/web3-hooks-base": "workspace:^",
+    "@masknet/web3-providers": "workspace:^",
+    "@masknet/web3-shared-base": "workspace:^",
+    "@masknet/web3-shared-evm": "workspace:^",
+    "bignumber.js": "9.1.2",
+    "react-use": "^17.5.0",
+    "web3-utils": "1.10.2"
+  }
+}

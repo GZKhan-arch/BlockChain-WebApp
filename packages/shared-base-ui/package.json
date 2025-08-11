@@ -1,0 +1,52 @@
+{
+  "name": "@masknet/shared-base-ui",
+  "description": "This package MUST be pure.",
+  "type": "module",
+  "private": true,
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "mask-src": "./src/index.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "@masknet/flags": "workspace:^",
+    "@masknet/shared-base": "workspace:^",
+    "@masknet/theme": "workspace:^",
+    "@tanstack/react-query": "^5.49.2",
+    "@types/use-subscription": "^1.0.2",
+    "react-use": "^17.5.0",
+    "urlcat": "^3.1.0",
+    "use-subscription": "^1.8.0"
+  },
+  "lingui": {
+    "compileNamespace": "json",
+    "locales": [
+      "en-US",
+      "ja-JP",
+      "ko-KR",
+      "zh-CN",
+      "zh-TW"
+    ],
+    "fallbackLocales": {
+      "zh-CN": "zh-TW",
+      "zh-TW": "zh-CN",
+      "default": "en-US"
+    },
+    "formatOptions": {
+      "origins": true,
+      "lineNumbers": false
+    },
+    "catalogs": [
+      {
+        "path": "./src/locale/{locale}",
+        "include": [
+          "./src/"
+        ]
+      }
+    ]
+  }
+}

@@ -1,49 +1,67 @@
-# 🌱 goGreen 
+<!-- cspell:disable -->
+<!-- markdownlint-disable no-inline-html first-line-heading -->
+<a href="https://mask.io">
+  <img src="https://dimensiondev.github.io/Mask-VI/assets/Logo/MB--Logo--Geo--ForceCircle--Blue.svg"
+       width="200" height="200" title="([I:b])" alt="([I:b])">
+</a>
+<!-- markdownlint-enable no-inline-html first-line-heading -->
 
-With **goGreen**, you can make your profile look like you've been hard at work... even if you haven't. 
-NodeJs script to make commits to the past (or the future) to go green on GitHub.
+# Mask Network
 
-## About
+[![GitHub license][badge-license]][license]
+[![Join the chat at https://gitter.im/Maskbook/community][badge-gitter]][gitter]
+[![Chrome Web Store][badge-chrome]][client-chrome]
+[![Mozilla Add-on][badge-firefox]][client-firefox]
+[![FOSSA Status][badge-fossa]][fossa]
+[![Crowdin][badge-crowdin]][crowdin]
 
-**goGreen** helps you create commits on your GitHub profile for any date in the past. Whether you want to fill up your contribution graph or even make cool patterns and artwork.
+Mask Network is a portal to the new, open internet, that bridge from Web2.0 to Web3.0 .
+With Mask Network, you can send encrypted posts to your friends, trade your best token on Twitter, enjoy NFT pfps,
+participate in crypto lucky-draws, and share encrypted files on the platforms you are already using.
 
-## Getting Started
+For general introductions, see [Mask.io](https://mask.io).
 
-Follow these steps to bring your contribution graph to life:
+[![FOSSA Status][fossa-status]][fossa]
 
-1. **Clone this repository**
-```bash
-git clone https://github.com/fenrir2608/goGreen.git
-cd goGreen
-```
-3. **Set up your project**
-Initialize a new Node.js project:
-```bash
-npm init -y
-  ```
-3. **Install the required npm modules**
-You'll need a few modules to get everything running smoothly. Install them all with:
-  ```bash
-  npm install moment simple-git random
-  ```
-4. **Create your commit script**
-- Create a JavaScript file to manage your commits.
-- Create a JSON file to store all the commit timestamp data.
+## Downloads
 
-## Room for Improvement
+- [Mask Network on Chrome Web Store][client-chrome]
+- [Mask Network on Firefox Addon Store][client-firefox]
 
-So, you've got the basics down. What's next?
+## Useful Links
 
-- **Custom Patterns:** Experiment with different patterns on your contribution graph. Maybe spell out your name or create some cool designs.
-- **Density Control:** Play around with the number of commits per day to adjust the shades of green.
-- **Input Strings:** Convert input strings to X-Y mapped contributions.
+- [User Forum](https://github.com/DimensionDev/Maskbook/discussions)
+- [Report Bug][report-bug]
+- [Twitter](https://x.com/realMaskNetwork)
+- [Facebook](https://www.facebook.com/masknetwork)
+- [Telegram](https://t.me/maskbook_group)
+- [Discord](https://discord.gg/4SVXvj7)
 
-## npm Modules Used
+## Developer documentation
 
-- [`moment`](https://www.npmjs.com/package/moment) - Handles date and time manipulation.
-- [`simple-git`](https://www.npmjs.com/package/simple-git) - For easy Git commands.
-- [`random`](https://www.npmjs.com/package/random) - To generate random numbers for the commits.
+Please check out [docs](https://docs.mask.io/)
 
-## Credits
+## Reporting a Vulnerability
 
-Huge thanks to [Akshay Saini](https://github.com/akshaymarch7) for the original video behind this project.
+Contact: `security (at) mask.io`
+
+see [SECURITY.md](.github/SECURITY.md)
+
+## Work for Mask Network
+
+Please submit your **resume** to `jobs (at) mask.io`
+
+[badge-chrome]: https://img.shields.io/chrome-web-store/v/jkoeaghipilijlahjplgbfiocjhldnap.svg?logo=Maskbook&logoColor=%231c68f3&style=flat-square&label=Chrome%20store
+[badge-crowdin]: https://badges.crowdin.net/mask-network/localized.svg
+[badge-firefox]: https://img.shields.io/amo/v/maskbook?label=Firefox%20store&style=flat-square
+[badge-fossa]: https://app.fossa.io/api/projects/git%2Bgithub.com%2FDimensionDev%2FMaskbook.svg?type=shield
+[badge-gitter]: https://badges.gitter.im/Maskbook/community.svg
+[badge-license]: https://img.shields.io/badge/license-AGPL-blue.svg?style=flat-square
+[client-chrome]: https://chrome.google.com/webstore/detail/maskbook/jkoeaghipilijlahjplgbfiocjhldnap/
+[client-firefox]: https://addons.mozilla.org/en-US/firefox/addon/maskbook/
+[crowdin]: https://crowdin.com/project/mask-network
+[fossa-status]: https://app.fossa.io/api/projects/git%2Bgithub.com%2FDimensionDev%2FMaskbook.svg?type=large
+[fossa]: https://app.fossa.io/projects/git%2Bgithub.com%2FDimensionDev%2FMaskbook
+[gitter]: https://gitter.im/Maskbook/community
+[license]: https://github.com/DimensionDev/Maskbook/blob/master/LICENSE
+[report-bug]: https://github.com/DimensionDev/Maskbook/issues/new?template=bug.md&assignees=jack-works&projects=DimensionDev/Maskbook/3&title=%5BBug%5D%20&labels=Type%3A%20Bug

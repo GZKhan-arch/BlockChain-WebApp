@@ -1,0 +1,65 @@
+{
+  "name": "@masknet/plugin-snapshot",
+  "private": true,
+  "sideEffects": [
+    "./src/register.ts"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "mask-src": "./src/index.ts",
+      "default": "./dist/index.js"
+    },
+    "./register": {
+      "mask-src": "./src/register.ts",
+      "default": "./dist/register.js"
+    }
+  },
+  "dependencies": {
+    "@json2csv/plainjs": "^7.0.6",
+    "@masknet/icons": "workspace:^",
+    "@masknet/plugin-infra": "workspace:^",
+    "@masknet/shared": "workspace:^",
+    "@masknet/shared-base": "workspace:^",
+    "@masknet/shared-base-ui": "workspace:^",
+    "@masknet/theme": "workspace:^",
+    "@masknet/typed-message": "workspace:^",
+    "@masknet/web3-hooks-base": "workspace:^",
+    "@masknet/web3-providers": "workspace:^",
+    "@masknet/web3-shared-base": "workspace:^",
+    "@masknet/web3-shared-evm": "workspace:^",
+    "@react-hookz/web": "^24.0.4",
+    "@types/color": "^3.0.6",
+    "color": "^4.2.3",
+    "date-fns": "^3.6.0",
+    "react-use": "^17.5.0",
+    "urlcat": "^3.1.0"
+  },
+  "lingui": {
+    "compileNamespace": "json",
+    "locales": [
+      "en-US",
+      "ja-JP",
+      "ko-KR",
+      "zh-CN",
+      "zh-TW"
+    ],
+    "fallbackLocales": {
+      "zh-CN": "zh-TW",
+      "zh-TW": "zh-CN",
+      "default": "en-US"
+    },
+    "formatOptions": {
+      "origins": true,
+      "lineNumbers": false
+    },
+    "catalogs": [
+      {
+        "path": "src/locale/{locale}",
+        "include": [
+          "src"
+        ]
+      }
+    ]
+  }
+}

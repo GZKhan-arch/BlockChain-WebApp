@@ -1,0 +1,31 @@
+{
+  "name": "@masknet/typed-message-react",
+  "version": "0.2.2",
+  "sideEffects": false,
+  "description": "TypedMessage React render used in Mask Network.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "mask-src": "./src/index.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@masknet/typed-message": "workspace:^",
+    "immer": "^10.1.1",
+    "z-schema": "^6.0.1"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "files": [
+    "src",
+    "dist/**/*.js",
+    "dist/**/*.d.ts",
+    "dist/**/*.map"
+  ]
+}

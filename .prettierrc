@@ -1,0 +1,15 @@
+{
+  "trailingComma": "all",
+  "printWidth": 120,
+  "semi": false,
+  "singleQuote": true,
+  "bracketSameLine": true,
+  "tabWidth": 4,
+  "experimentalTernaries": true,
+  "overrides": [
+    {
+      "files": ["*rc", "package.json", "tsconfig*", "*.md", "*.yaml", "*.yml"],
+      "options": { "tabWidth": 2 }
+    }
+  ]
+}

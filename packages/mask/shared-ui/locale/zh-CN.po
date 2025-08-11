@@ -1,0 +1,3158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mask-network\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2025-01-08 06:53\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: Chinese Simplified\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: mask-network\n"
+"X-Crowdin-Project-ID: 468872\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /[DimensionDev.Maskbook] develop/packages/mask/shared-ui/locale/en-US.po\n"
+"X-Crowdin-File-ID: 944\n"
+
+#: popups/pages/Wallet/Interaction/WatchTokenRequest.tsx
+msgid "(the name is set by the web site)"
+msgstr ""
+
+#. placeholder {0}: millisecondsToHours(value)
+#: popups/pages/Wallet/WalletSettings/AutoLock.tsx
+msgid "{0, plural, one {# Hour} other {# Hours}}"
+msgstr ""
+
+#. placeholder {0}: formatTokenBalance(tokenBalance, token?.decimals)
+#: popups/pages/Wallet/Transfer/FungibleTokenSection.tsx
+msgid "{0} available"
+msgstr "{0} 可用"
+
+#. placeholder {0}: wallet?.name || 'Your wallet'
+#: popups/pages/Wallet/ConnectedSites/index.tsx
+msgid "{0} is connected to these sites, they can view your account address."
+msgstr ""
+
+#. placeholder {0}: millisecondsToMinutes(value)
+#: popups/pages/Wallet/WalletSettings/AutoLock.tsx
+msgid "{0} Mins"
+msgstr "{0} 分钟"
+
+#. placeholder {0}: pendingTransactions.length
+#: content-script/components/InjectedComponents/ToolboxUnstyled.tsx
+msgid "{0} Pending"
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+msgid "{count, plural, one {# Wallet 🚀} other {# Wallets 🚀}}"
+msgstr ""
+
+#: content-script/components/InjectedComponents/DecryptedPost/DecryptPostAwaiting.tsx
+msgid "{decryptProgress, select, finding_post_key {Mask is finding the key to decrypt this message. If this last for a long time, this post might not be shared to you.} finding_person_public_key {Mask is looking for the public key of the author...} other {Mask is decrypting...}}"
+msgstr ""
+
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+msgid "{shareWithNum, plural, one {1 friend} other {# friends}}"
+msgstr ""
+
+#: dashboard/components/BackupPreview/index.tsx
+msgid "{walletLength, plural, one {# Wallet} other {# Wallets}}"
+msgstr ""
+
+#: popups/pages/Settings/index.tsx
+msgid "<0>{websiteCount}</0> {websiteCount, plural, one {Website} other {Websites}}"
+msgstr ""
+
+#: content-script/components/InjectedComponents/SetupGuide/AccountConnectStatus.tsx
+msgid "<0>@{currentUserId}</0> connected already."
+msgstr ""
+
+#. placeholder {0}: formatEthereumAddress(transaction.formattedTransaction.popup.spender, 4)
+#: popups/pages/Wallet/Interaction/TransactionRequest.tsx
+msgid "<0>Granted to </0><1>{0}</1>"
+msgstr ""
+
+#: popups/pages/Wallet/WalletSettings/DisablePermit.tsx
+msgid "<0>Permit allows users to authorize an address to access their ERC-20 tokens without requiring a separate approval transaction, providing a more efficient way to manage token permissions.</0><1>However, if the authorized limit is exceeded or the Permit expires, the authorization automatically becomes invalid. Despite this, security risks remain.</1><2>To prevent potential misuse, you can disable the Permit feature.</2>"
+msgstr ""
+
+#: content-script/components/InjectedComponents/ProfileTabContent.tsx
+msgid "<0>Powered by</0><1>Mask Network</1>"
+msgstr ""
+
+#: popups/pages/Wallet/SetPaymentPassword/index.tsx
+msgid "<0>Service Agreement</0> and <1>Privacy Policy</1>"
+msgstr ""
+
+#: popups/components/TransactionPreview/index.tsx
+msgid "<0>To</0>: <1>{to}</1>"
+msgstr ""
+
+#: content-script/site-adaptors/twitter.com/customization/i18n.ts
+msgid "🎭 🎭🎭 Tired of plaintext? Try to send encrypted messages to your friends. Install {encrypted} to send your first encrypted tweet."
+msgstr ""
+
+#: content-script/components/CompositionDialog/useSubmit.ts
+msgid "📃📃📃 Try to permanently use decentralized file storage on {sns}. Install Mask.io to upload and share first permanent decentralized file, powered by mainstream decentralized storage solutions."
+msgstr ""
+
+#: content-script/components/CompositionDialog/useSubmit.ts
+msgid "🧧🧧🧧 Try sending Lucky Drop to your friends with Mask.io."
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Mnemonic/index.tsx
+msgid "12-word recovery phrase is used to recover your persona data."
+msgstr "请选择恢复备份的正确方法。"
+
+#: content-script/components/CompositionDialog/useSubmit.ts
+msgid "a token"
+msgstr "代币"
+
+#: popups/pages/Settings/index.tsx
+msgid "About"
+msgstr "关于"
+
+#: popups/pages/Wallet/CollectibleDetail/index.tsx
+msgid "About {collectionName}"
+msgstr ""
+
+#: popups/pages/Wallet/WalletSettings/DisablePermit.tsx
+msgid "About Permit"
+msgstr ""
+
+#: content-script/components/InjectedComponents/SetupGuide/VerifyNextID.tsx
+msgid "Account connected.<0/><1/>Try to explore more features powered by Mask Network."
+msgstr ""
+
+#: content-script/components/InjectedComponents/SetupGuide/hooks/useNotifyConnected.ts
+msgid "Account successfully connected to persona"
+msgstr "尝试探索社交媒体上的 Web3 dApps 功能。"
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+msgid "accounts"
+msgstr "账户"
+
+#: popups/pages/Wallet/components/WalletAssets/index.tsx
+msgid "Activities"
+msgstr "活动"
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Activity Log"
+msgstr "活动日志"
+
+#: popups/pages/Wallet/CreateWallet/Derive.tsx
+#: popups/pages/Friends/ContactCard/index.tsx
+#: popups/modals/SwitchPersonaModal/index.tsx
+msgid "Add"
+msgstr "添加"
+
+#: content-script/components/InjectedComponents/CommentBox.tsx
+msgid "Add an encrypted comment..."
+msgstr ""
+
+#: popups/pages/Wallet/AddToken/index.tsx
+msgid "Add Assets"
+msgstr "添加资产"
+
+#: popups/pages/Wallet/ContactList/index.tsx
+#: popups/components/AddContactInputPanel/index.tsx
+msgid "Add Contact"
+msgstr "添加联系人"
+
+#: popups/pages/Wallet/NetworkManagement/index.tsx
+#: popups/pages/Wallet/EditNetwork/index.tsx
+msgid "Add Network"
+msgstr "添加网络"
+
+#: popups/pages/Wallet/CreateWallet/index.tsx
+msgid "Add new address to an existing group"
+msgstr "向现有组添加新地址"
+
+#: popups/pages/Wallet/Interaction/WatchTokenRequest.tsx
+msgid "Add Suggested Token"
+msgstr ""
+
+#: popups/pages/Wallet/components/StartUp/index.tsx
+#: popups/pages/Wallet/SwitchWallet/index.tsx
+#: popups/pages/Wallet/CreateWallet/index.tsx
+#: popups/pages/Wallet/CreateWallet/Derive.tsx
+msgid "Add Wallet"
+msgstr "添加钱包"
+
+#: popups/pages/Wallet/components/AssetsList/index.tsx
+#: popups/components/TokenPicker/TokenItem.tsx
+msgid "Added by user"
+msgstr "由用户添加"
+
+#: popups/pages/Friends/ContactCard/index.tsx
+msgid "Added successfully"
+msgstr "添加成功"
+
+#: popups/pages/Personas/ConnectWallet/index.tsx
+msgid "Adding your wallets will allow you to own, view, and utilize your digital identities via Next.ID service. Note that you will be required to sign and authenticate the transaction to prove ownership of your wallet."
+msgstr "添加您的钱包将允许您通过Next.ID服务拥有、查看和使用您的数字身份。 请注意，您必须签名并认证交易，以证明您的钱包的所有权。"
+
+#: popups/modals/AddContactModal/index.tsx
+msgid "Address"
+msgstr "地址"
+
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/ComponentToPrint.tsx
+msgid "Address: <0>{address}</0>"
+msgstr ""
+
+#: popups/pages/Personas/AccountDetail/UI.tsx
+msgid "After connecting and verifying your persona, you can set up associated address for displaying your web3 footprints or receiving tips."
+msgstr "在连接和验证您的身份后，您可以设置相关的地址来显示您的 web3 足迹或接收打赏。"
+
+#: popups/pages/Personas/Logout/index.tsx
+msgid "After logging out, your associated social accounts will no longer decrypt old encrypted messages. If you need to use your account again, you can recover your account with your identity, private key, local or cloud backup."
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Welcome/index.tsx
+#: dashboard/pages/SetupPersona/Permissions/index.tsx
+msgid "Agree"
+msgstr "同意"
+
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+msgid "All"
+msgstr "所有人"
+
+#: content-script/components/InjectedComponents/DecryptedPost/DecryptedPostSuccess.tsx
+msgid "All Mask Network users"
+msgstr ""
+
+#: popups/pages/Wallet/Interaction/SwitchChainRequest.tsx
+msgid "Allow this site to switch the network?"
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Welcome/index.tsx
+msgid "Allow us to collect your usage information to help us improve Mask."
+msgstr ""
+
+#: popups/pages/Wallet/Transfer/FungibleTokenSection.tsx
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Amount"
+msgstr "金额"
+
+#: content-script/components/CompositionDialog/useSubmit.ts
+msgid "an NFT"
+msgstr "NFT"
+
+#: popups/pages/Settings/index.tsx
+#: popups/modals/SelectAppearanceModal/index.tsx
+msgid "Appearance"
+msgstr "外观"
+
+#: content-script/components/InjectedComponents/DisabledPluginSuggestion.tsx
+#: popups/pages/RequestPermission/RequestPermission.tsx
+#: popups/modals/UpdatePermissionModal/index.tsx
+msgid "Approve"
+msgstr "授权"
+
+#: popups/pages/Wallet/Interaction/TransactionRequest.tsx
+msgid "Approve amount"
+msgstr "已批准的金额"
+
+#: dashboard/pages/SetupPersona/CloudBackupPreview/index.tsx
+msgid "Are you sure to overwrite the backups stored on Mask Cloud Service?"
+msgstr ""
+
+#. placeholder {0}: formatEthereumAddress(wallet.identity, 4)
+#: popups/components/ConnectedWallet/index.tsx
+msgid "Are you sure to remove the connected wallet <0>{0}</0>?"
+msgstr ""
+
+#: popups/modals/WalletRemoveModal/index.tsx
+msgid "Are you sure to remove this wallet?"
+msgstr "您确定要删除此钱包吗？"
+
+#: popups/pages/Wallet/Interaction/interaction.tsx
+msgid "Are you sure?"
+msgstr ""
+
+#: popups/pages/Wallet/components/DisconnectModal/index.tsx
+msgid "Are your sure you want to disconnect? You may lose part of functionalities of this website."
+msgstr ""
+
+#: popups/pages/Wallet/TokenDetail/index.tsx
+msgid "Asset is hidden."
+msgstr ""
+
+#: dashboard/components/BackupPreview/index.tsx
+msgid "Associated Accounts"
+msgstr "关联账户"
+
+#: dashboard/pages/CreateMaskWallet/CreateWalletForm/index.tsx
+#: popups/pages/Wallet/SetPaymentPassword/index.tsx
+#: popups/modals/ChangePaymentPasswordModal/index.tsx
+msgid "At least 6 characters"
+msgstr "至少6个字符"
+
+#: popups/pages/Wallet/WalletSettings/AutoLock.tsx
+msgid "Auto-lock"
+msgstr "自动锁定"
+
+#: popups/pages/Wallet/WalletSettings/AutoLock.tsx
+msgid "Auto-lock Time"
+msgstr "自动锁定时间"
+
+#: popups/pages/Personas/PersonaAvatarSetting/index.tsx
+msgid "Avatar set successfully"
+msgstr "新头像设置成功"
+
+#: content-script/components/shared/SelectRecipients/SelectRecipientsDialog.tsx
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/index.tsx
+#: popups/pages/Personas/ExportPrivateKey/index.tsx
+#: popups/pages/Personas/AccountDetail/UI.tsx
+msgid "Back"
+msgstr "返回"
+
+#: dashboard/pages/SetupPersona/CloudBackupPreview/index.tsx
+#: popups/pages/Personas/Logout/index.tsx
+#: popups/modals/SwitchPersonaModal/index.tsx
+msgid "Backup"
+msgstr "备份"
+
+#: popups/pages/Settings/index.tsx
+msgid "Backup & Recovery"
+msgstr "备份恢复"
+
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+msgid "Backup downloaded and merged to local successfully."
+msgstr "备份下载并成功合并到本地。"
+
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+msgid "Backup Failed"
+msgstr "备份失败"
+
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+msgid "Backup is saved to Mask Cloud Service."
+msgstr ""
+
+#. placeholder {0}: user.localBackupAt
+#. placeholder {0}: user.cloudBackupAt
+#: popups/pages/Settings/index.tsx
+#: popups/pages/Settings/index.tsx
+msgid "Backup on {0}"
+msgstr ""
+
+#: dashboard/components/Restore/RestorePersonaFromLocal.tsx
+#: dashboard/components/Restore/RestoreFromCloud/ConfirmBackupInfo.tsx
+msgid "Backup password"
+msgstr "备份密码"
+
+#: dashboard/pages/SetupPersona/LocalBackup/index.tsx
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+#: popups/pages/Settings/index.tsx
+#: popups/modals/SetBackupPasswordModal/index.tsx
+msgid "Backup Password"
+msgstr "备份密码"
+
+#: popups/modals/SetBackupPasswordModal/index.tsx
+#: popups/modals/ChangeBackupPasswordModal/index.tsx
+msgid "Backup password must be 8-20 characters, including uppercase, lowercase, special characters and numbers."
+msgstr "备份密码必须是 8-20 个字符，包括大写、小写、特殊字符和数字。"
+
+#: popups/modals/SetBackupPasswordModal/index.tsx
+#: popups/modals/ChangeBackupPasswordModal/index.tsx
+msgid "Backup password set successfully"
+msgstr "备份密码设置成功。"
+
+#: popups/modals/VerifyBackupPasswordModal/index.tsx
+#: popups/modals/PersonaSettingModal/index.tsx
+msgid "Backup Persona"
+msgstr "备份身份"
+
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+msgid "Backup to Mask Cloud Service"
+msgstr "备份到 Mask 云服务"
+
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+msgid "Backup to the Cloud"
+msgstr ""
+
+#: popups/pages/Wallet/WalletSettings/ShowPrivateKey.tsx
+msgid "Backup Wallet"
+msgstr "备份钱包"
+
+#: popups/pages/Wallet/TokenDetail/index.tsx
+msgid "Balance"
+msgstr "余额"
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Base"
+msgstr "基础信息"
+
+#: popups/pages/Settings/index.tsx
+#: popups/pages/Settings/index.tsx
+msgid "Basic setting"
+msgstr "基础设置"
+
+#: popups/pages/Wallet/Interaction/WatchTokenRequest.tsx
+msgid "Be aware, check the token before adding it."
+msgstr ""
+
+#: popups/pages/Wallet/EditNetwork/index.tsx
+msgid "Block Explorer URL"
+msgstr "区块浏览器（可选）"
+
+#: popups/pages/Trader/Header.tsx
+msgid "Bridge"
+msgstr ""
+
+#: content-script/site-adaptors/twitter.com/injection/ToolboxHint_UI.tsx
+msgid "Browse the Web3 footprints of your X friends, enjoy the freedom of Web3."
+msgstr ""
+
+#: popups/pages/Personas/PersonaAvatarSetting/index.tsx
+msgid "Browser File"
+msgstr "浏览文件"
+
+#: dashboard/pages/SetupPersona/Welcome/index.tsx
+#: dashboard/pages/SetupPersona/Permissions/index.tsx
+msgid "By continuing to the app, you agree to these <0>Service Agreement</0> and <1>Privacy Policy</1>."
+msgstr ""
+
+#: popups/components/UnlockERC20Token/index.tsx
+msgid "By granting permission, you are allowing the following <0/> contract to access your funds"
+msgstr ""
+
+#: popups/components/UnlockERC721Token/index.tsx
+msgid "By granting permission, you are allowing the following <0/> contract to access your NFTs."
+msgstr ""
+
+#: popups/pages/Wallet/SetPaymentPassword/index.tsx
+msgid "By proceeding you agree to the"
+msgstr "继续执行表示您同意"
+
+#: content-script/components/InjectedComponents/ProfileTabContent.tsx
+msgid "Can't find a valid user address data source."
+msgstr ""
+
+#: content-script/components/InjectedComponents/SelectPeopleDialog.tsx
+#: dashboard/pages/SetupPersona/Welcome/index.tsx
+#: dashboard/pages/SetupPersona/Permissions/index.tsx
+#: dashboard/pages/SetupPersona/CloudBackupPreview/index.tsx
+#: dashboard/modals/ConfirmModal/index.tsx
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+#: dashboard/components/Restore/ConfirmSynchronizePasswordDialog.tsx
+#: popups/pages/Wallet/components/DisconnectModal/index.tsx
+#: popups/pages/Wallet/components/ActivityList/ActivityItem.tsx
+#: popups/pages/Wallet/Transfer/FungibleTokenSection.tsx
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+#: popups/pages/Wallet/SelectWallet/index.tsx
+#: popups/pages/Wallet/ResetWallet/index.tsx
+#: popups/pages/Wallet/Interaction/interaction.tsx
+#: popups/pages/Wallet/EditNetwork/index.tsx
+#: popups/pages/Wallet/ChangeOwner/index.tsx
+#: popups/pages/RequestPermission/RequestPermission.tsx
+#: popups/pages/Personas/PersonaSignRequest/index.tsx
+#: popups/pages/Personas/PersonaAvatarSetting/index.tsx
+#: popups/pages/Personas/Logout/index.tsx
+#: popups/pages/Personas/ConnectWallet/index.tsx
+#: popups/modals/GasSettingModal/index.tsx
+#: popups/modals/EditContactModal/index.tsx
+#: popups/modals/DeleteContactModal/index.tsx
+#: popups/modals/AddContactModal/index.tsx
+msgid "Cancel"
+msgstr "取消"
+
+#: popups/pages/Wallet/Interaction/SwitchChainRequest.tsx
+msgid "Cannot switch to a unknown network."
+msgstr ""
+
+#: popups/pages/Wallet/EditNetwork/index.tsx
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Chain ID"
+msgstr ""
+
+#. placeholder {0}: currentNetwork?.chainId ?? currentChainId
+#. placeholder {0}: nextNetwork?.chainId ?? nextChainId
+#: popups/pages/Wallet/Interaction/SwitchChainRequest.tsx
+#: popups/pages/Wallet/Interaction/SwitchChainRequest.tsx
+msgid "Chain ID: {0}"
+msgstr ""
+
+#: popups/pages/Wallet/ChangeOwner/index.tsx
+#: popups/pages/Personas/ConnectWallet/index.tsx
+msgid "Change"
+msgstr "切换"
+
+#: content-script/components/InjectedComponents/SetupGuide/AccountConnectStatus.tsx
+msgid "Change another account and try again."
+msgstr ""
+
+#: popups/pages/Settings/index.tsx
+#: popups/modals/ChangeBackupPasswordModal/index.tsx
+msgid "Change Backup Password"
+msgstr "修改备份密码"
+
+#: popups/pages/Wallet/WalletSettings/ChangeNetwork.tsx
+msgid "Change Network"
+msgstr "更改网络"
+
+#: popups/pages/Wallet/WalletSettings/ChangeOwner.tsx
+#: popups/pages/Wallet/ChangeOwner/index.tsx
+msgid "Change Owner"
+msgstr "更改管理账户"
+
+#: popups/pages/Wallet/WalletSettings/ChangePaymentPassword.tsx
+#: popups/pages/Wallet/WalletSettings/ChangePaymentPassword.tsx
+msgid "Change Payment Password"
+msgstr "修改支付密码"
+
+#: popups/modals/ConnectProvider/index.tsx
+msgid "Choose another wallet"
+msgstr "切换钱包"
+
+#: popups/modals/ChooseToken/index.tsx
+msgid "Choose Token"
+msgstr "选择代币"
+
+#: popups/pages/Wallet/components/OriginCard/index.tsx
+msgid "Chrome - external extension"
+msgstr ""
+
+#: content-script/components/InjectedComponents/PostDialogHint.tsx
+msgid "Click here to have a quick start."
+msgstr "点击这里快速开始。"
+
+#: content-script/components/InjectedComponents/SetupGuide/PinExtension.tsx
+msgid "Click on <0/> at the top-right of your browser."
+msgstr ""
+
+#: popups/pages/Wallet/ExportPrivateKey/index.tsx
+msgid "Click on the down-arrow to see the private key."
+msgstr ""
+
+#: content-script/components/InjectedComponents/PageInspector.tsx
+msgid "Close"
+msgstr "关闭"
+
+#: dashboard/pages/SetupPersona/Recovery/index.tsx
+#: dashboard/components/Restore/ConfirmSynchronizePasswordDialog.tsx
+#: popups/pages/Settings/index.tsx
+msgid "Cloud Backup"
+msgstr "云端备份"
+
+#: popups/pages/Wallet/CollectibleDetail/index.tsx
+msgid "Collectible"
+msgstr "收藏品"
+
+#: popups/components/NFTAvatarPicker/index.tsx
+msgid "Coming soon"
+msgstr "即将上线"
+
+#: dashboard/components/Restore/RestoreWalletFromLocal.tsx
+#: dashboard/components/Restore/RestorePersonaFromLocal.tsx
+msgid "Completed"
+msgstr "已完成"
+
+#: dashboard/pages/SetupPersona/CloudBackupPreview/index.tsx
+#: dashboard/modals/ConfirmModal/index.tsx
+#: dashboard/components/Restore/ConfirmSynchronizePasswordDialog.tsx
+#: popups/pages/Wallet/components/DisconnectModal/index.tsx
+#: popups/pages/Wallet/Transfer/NonFungibleTokenSection.tsx
+#: popups/pages/Wallet/SetPaymentPassword/index.tsx
+#: popups/pages/Wallet/SelectWallet/index.tsx
+#: popups/pages/Wallet/ResetWallet/index.tsx
+#: popups/pages/Wallet/Interaction/interaction.tsx
+#: popups/pages/Wallet/GasSetting/Prior1559GasSetting.tsx
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+#: popups/pages/Wallet/EditNetwork/index.tsx
+#: popups/pages/Personas/PersonaAvatarSetting/index.tsx
+#: popups/modals/WalletRenameModal/index.tsx
+#: popups/modals/WalletAutoLockSettingModal/index.tsx
+#: popups/modals/ShowPrivateKeyModal/index.tsx
+#: popups/modals/SetBackupPasswordModal/index.tsx
+#: popups/modals/PersonaRenameModal/index.tsx
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+#: popups/modals/EditContactModal/index.tsx
+#: popups/modals/ConfirmModal/index.tsx
+#: popups/modals/ChangePaymentPasswordModal/index.tsx
+#: popups/modals/ChangeBackupPasswordModal/index.tsx
+#: popups/modals/AddContactModal/index.tsx
+#: popups/components/NFTAvatarPicker/index.tsx
+msgid "Confirm"
+msgstr "确认"
+
+#: popups/pages/Trader/Header.tsx
+msgid "Confirm Bridge"
+msgstr ""
+
+#: popups/pages/Wallet/SetPaymentPassword/index.tsx
+#: popups/modals/ChangePaymentPasswordModal/index.tsx
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: dashboard/pages/CreateMaskWallet/CreateWalletForm/index.tsx
+msgid "Confirm Payment Password"
+msgstr "再次输入支付密码"
+
+#: popups/pages/Trader/Header.tsx
+msgid "Confirm Swap"
+msgstr ""
+
+#. placeholder {0}: asset.symbol
+#: popups/pages/Wallet/TokenDetail/index.tsx
+msgid "Confirm to hide {0}? You can redisplay it by re-adding this token at any time."
+msgstr ""
+
+#: popups/pages/Wallet/CollectibleDetail/index.tsx
+msgid "Confirm to hide {name}? You can redisplay it by re-adding this NFT at any time."
+msgstr ""
+
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+#: popups/pages/Personas/ConnectWallet/index.tsx
+msgid "Congratulations"
+msgstr "恭喜您！"
+
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+#: popups/modals/SelectProviderModal/index.tsx
+#: popups/components/SocialAccounts/index.tsx
+#: popups/components/ConnectedWallet/index.tsx
+msgid "Connect"
+msgstr "连接"
+
+#: content-script/components/InjectedComponents/ToolboxUnstyled.tsx
+msgid "Connect and switch between your wallets."
+msgstr "点击这里连接您的钱包。您可以在此选择网络或更改您的钱包。"
+
+#: popups/modals/SelectProviderModal/index.tsx
+msgid "Connect Mask Network Account using your wallet."
+msgstr "使用您的钱包连接Mask Network账户。"
+
+#: content-script/components/InjectedComponents/SetupGuide/AccountConnectStatus.tsx
+msgid "Connect Persona"
+msgstr "连接身份"
+
+#: popups/modals/ConnectSocialAccountModal/index.tsx
+msgid "Connect Social Account"
+msgstr "连接社交账户"
+
+#: content-script/components/InjectedComponents/ToolboxUnstyled.tsx
+#: popups/pages/Personas/ConnectWallet/index.tsx
+msgid "Connect Wallet"
+msgstr "连接钱包"
+
+#: popups/pages/Wallet/Interaction/SwitchChainRequest.tsx
+#: popups/pages/Wallet/Interaction/PermissionRequest.tsx
+#: popups/pages/Wallet/Interaction/PermissionRequest.tsx
+#: popups/pages/Wallet/Interaction/AddChainRequest.tsx
+msgid "Connect with Mask Wallet"
+msgstr ""
+
+#: popups/components/SocialAccounts/index.tsx
+msgid "Connect your social platform accounts."
+msgstr "连接您的社交媒体帐户。"
+
+#: content-script/site-adaptors/instagram.com/injection/NFT/NFTAvatarSettingDialog.tsx
+#: popups/modals/SelectProviderModal/index.tsx
+msgid "Connect your wallet"
+msgstr "连接您的钱包"
+
+#: popups/pages/Wallet/components/WalletHeader/UI.tsx
+msgid "Connected"
+msgstr ""
+
+#. placeholder {0}: currentPersona?.nickname
+#: popups/pages/Personas/ConnectWallet/index.tsx
+msgid "Connected {0} with {walletName}."
+msgstr ""
+
+#: popups/pages/Wallet/WalletSettings/ConnectedOrigins.tsx
+#: popups/pages/Wallet/ConnectedSites/index.tsx
+msgid "Connected sites"
+msgstr "已连接的网站"
+
+#: popups/pages/Personas/Home/UI.tsx
+msgid "Connected Wallet"
+msgstr "已连接的钱包"
+
+#: popups/modals/ConnectProvider/index.tsx
+msgid "Connecting operation cancelled in third-party wallet."
+msgstr "第三方钱包中取消了连接操作。"
+
+#: popups/modals/ConnectProvider/index.tsx
+msgid "Connecting your {providerType} wallet"
+msgstr ""
+
+#: popups/modals/AddContactModal/index.tsx
+msgid "Contact added."
+msgstr ""
+
+#: popups/modals/DeleteContactModal/index.tsx
+msgid "Contact deleted."
+msgstr ""
+
+#: popups/modals/EditContactModal/index.tsx
+msgid "Contact edited."
+msgstr ""
+
+#: dashboard/components/BackupPreview/index.tsx
+#: popups/pages/Wallet/WalletSettings/Contacts.tsx
+#: popups/pages/Wallet/ContactList/index.tsx
+#: popups/pages/Wallet/ContactList/index.tsx
+#: popups/pages/Friends/Home/index.tsx
+msgid "Contacts"
+msgstr "联系人"
+
+#: dashboard/pages/SignUp/steps/PersonaNameUI.tsx
+#: dashboard/pages/SetupPersona/SignUp/index.tsx
+#: dashboard/pages/SetupPersona/Mnemonic/index.tsx
+#: dashboard/pages/SetupPersona/CloudBackup/index.tsx
+#: dashboard/pages/CreateMaskWallet/CreateWalletForm/index.tsx
+#: dashboard/pages/CreateMaskWallet/AddDeriveWallet/index.tsx
+#: dashboard/components/Restore/RestoreWalletFromLocal.tsx
+#: dashboard/components/Restore/RestorePersonaFromLocal.tsx
+#: dashboard/components/Restore/RestoreFromPrivateKey.tsx
+#: dashboard/components/Restore/RestoreFromMnemonic.tsx
+#: dashboard/components/Restore/RestoreFromCloud/PhoneField.tsx
+#: dashboard/components/Restore/RestoreFromCloud/EmailField.tsx
+msgid "Continue"
+msgstr "继续"
+
+#: popups/components/UnlockERC721Token/index.tsx
+#: popups/components/UnlockERC20Token/index.tsx
+msgid "Contract"
+msgstr "合约"
+
+#: popups/components/TransactionPreview/index.tsx
+msgid "Contract Interaction"
+msgstr "合约交互"
+
+#: popups/pages/Personas/ExportPrivateKey/index.tsx
+#: popups/components/PrivateKeyDisplay/index.tsx
+msgid "Copied"
+msgstr "已复制"
+
+#: popups/pages/Personas/ExportPrivateKey/index.tsx
+msgid "Copy"
+msgstr "复制"
+
+#: content-script/components/InjectedComponents/AutoPasteFailedDialog.tsx
+msgid "Copy image"
+msgstr "复制图片"
+
+#: popups/components/PrivateKeyDisplay/index.tsx
+msgid "Copy private key"
+msgstr "复制私钥"
+
+#: content-script/components/InjectedComponents/AutoPasteFailedDialog.tsx
+msgid "Copy text"
+msgstr "复制文本"
+
+#: popups/pages/Wallet/EditNetwork/network-schema.ts
+msgid "Could not fetch chain ID. Is your RPC URL correct?"
+msgstr "无法获取链 ID。您的 RPC URL 正确吗？"
+
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+#: dashboard/pages/CreateMaskWallet/Recovery/index.tsx
+#: dashboard/pages/CreateMaskWallet/AddDeriveWallet/index.tsx
+msgid "Create"
+msgstr "创建"
+
+#: popups/pages/Wallet/components/ImportCreateWallet/index.tsx
+msgid "Create a New Wallet"
+msgstr "创建新钱包"
+
+#: dashboard/pages/SetupPersona/SignUp/index.tsx
+msgid "Create New Mask Identity"
+msgstr "创建新的 MASK 身份"
+
+#: popups/pages/Wallet/SetPaymentPassword/index.tsx
+msgid "Create Password"
+msgstr "设置密码"
+
+#: popups/pages/Personas/Home/UI.tsx
+msgid "Create Persona"
+msgstr "创建身份"
+
+#: dashboard/pages/SetupPersona/SignUp/index.tsx
+msgid "Create your persona to get started"
+msgstr "创建您的身份以开始"
+
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#~ msgid "Creating your"
+#~ msgstr ""
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+msgid "Creating your "
+msgstr ""
+
+#: popups/pages/Wallet/WalletSettings/ChangeCurrency.tsx
+#: popups/modals/ChooseCurrencyModal/index.tsx
+msgid "Currency"
+msgstr "货币"
+
+#: popups/pages/Wallet/EditNetwork/index.tsx
+msgid "Currency Symbol (Optional)"
+msgstr "货币符号(可选)"
+
+#: content-script/components/InjectedComponents/SetupGuide/AccountConnectStatus.tsx
+msgid "Current account is not the verifying account."
+msgstr ""
+
+#. placeholder {0}: formatWeiToGwei(gasOptions.normal.baseFeePerGas).toFixed(2, BigNumber.ROUND_UP)
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Current base fee is {0} Gwei"
+msgstr "当前基础手续费是 {0} Gwei"
+
+#: popups/pages/Wallet/ChangeOwner/index.tsx
+msgid "Current Management Account"
+msgstr "当前的管理账户"
+
+#: popups/pages/Wallet/WalletSettings/index.tsx
+msgid "Current wallet (<0>{currentWallet}</0>) is the management account of SmartPay wallet (<1>{other_wallets}</1>).<2/>Deleting the current wallet will result in the deletion of the SmartPay wallet simultaneously."
+msgstr ""
+
+#: popups/hooks/useGasOptionsMenu.tsx
+#: popups/components/GasSettingMenu/index.tsx
+msgid "Custom"
+msgstr "自定义"
+
+#: popups/pages/Settings/index.tsx
+#: popups/modals/SelectAppearanceModal/index.tsx
+msgid "Dark"
+msgstr "深色"
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+msgid "data"
+msgstr "数据"
+
+#: popups/pages/Wallet/Interaction/TransactionRequest.tsx
+msgid "Data"
+msgstr "数据"
+
+#: popups/pages/Settings/index.tsx
+msgid "Data correlation"
+msgstr "数据关联"
+
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+msgid "Data merged from Mask Cloud Service to local successfully. Re-enter your password to encrypt and upload the new backup to Mask Cloud Service."
+msgstr ""
+
+#: dashboard/components/Restore/RestoreFromCloud/ConfirmBackupInfo.tsx
+#: dashboard/components/Restore/RestoreFromCloud/ConfirmBackupInfo.tsx
+msgid "Decrypt failed, please check password"
+msgstr "备份解密失败，请检查密码"
+
+#: content-script/components/CompositionDialog/useSubmit.ts
+msgid "Decrypt this post with #mask_io! 🎭🎭🎭 Tired of plaintext? Try to send encrypted messages to your friends. Install Mask.io to send your first encrypted tweet. {encrypted}"
+msgstr ""
+
+#: content-script/components/InjectedComponents/DecryptedPost/DecryptedPostSuccess.tsx
+msgid "Decrypted by Mask Network"
+msgstr "由Mask解密："
+
+#: popups/pages/Wallet/ContactList/index.tsx
+msgid "Delete"
+msgstr "删除"
+
+#: popups/pages/Wallet/ContactList/index.tsx
+#: popups/modals/DeleteContactModal/index.tsx
+msgid "Delete Contact"
+msgstr "删除联系人"
+
+#: popups/pages/Friends/Detail/index.tsx
+msgid "Deleted successfully"
+msgstr "成功删除"
+
+#: popups/components/TransactionPreview/index.tsx
+msgid "Deploy Contract"
+msgstr ""
+
+#: popups/pages/Wallet/CollectibleDetail/index.tsx
+msgid "Description"
+msgstr "描述"
+
+#: popups/pages/Wallet/WalletSettings/DisablePermit.tsx
+msgid "Disable Permit"
+msgstr ""
+
+#: popups/pages/Wallet/components/DisconnectModal/index.tsx
+msgid "Disconnect"
+msgstr "断开"
+
+#: popups/pages/Wallet/components/DisconnectModal/index.tsx
+msgid "Disconnect all accounts"
+msgstr "断开所有社交账户"
+
+#: popups/pages/Personas/AccountDetail/index.tsx
+#: popups/pages/Personas/AccountDetail/index.tsx
+msgid "Disconnect failed."
+msgstr "断开连接失败。"
+
+#: popups/pages/Personas/AccountDetail/index.tsx
+msgid "Disconnect Social Account?"
+msgstr "断开社交账户?"
+
+#: popups/components/ConnectedWallet/index.tsx
+msgid "Disconnect Wallet?"
+msgstr "断开钱包?"
+
+#: popups/pages/Wallet/components/DisconnectModal/index.tsx
+#: popups/pages/Wallet/components/DisconnectModal/index.tsx
+msgid "Disconnected successfully."
+msgstr ""
+
+#: popups/pages/Personas/AccountDetail/index.tsx
+#: popups/pages/Personas/AccountDetail/index.tsx
+msgid "Disconnected."
+msgstr ""
+
+#: popups/pages/Personas/AccountDetail/UI.tsx
+msgid "Display the following address on your Web3 profile page and use it to receive tips."
+msgstr "在您的 Web3 个人资料页面上显示以下地址并使用它来接收打赏。"
+
+#: content-script/components/InjectedComponents/PageInspector.tsx
+msgid "Do you need to paste encrypted content manually?"
+msgstr "您需要手动粘贴加密内容吗？"
+
+#. placeholder {0}: selectedAccount?.identifier.userId
+#. placeholder {1}: currentPersona.nickname
+#: popups/pages/Personas/AccountDetail/index.tsx
+msgid "Do you want to remove the verified association between the X account @<0>{0}</0> and {1}?"
+msgstr ""
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Domain"
+msgstr ""
+
+#: content-script/components/InjectedComponents/SetupGuide/PinExtension.tsx
+msgid "Don't forget to pin Mask Network in the browser toolbar to access Web3 easily."
+msgstr ""
+
+#: popups/pages/Wallet/components/WalletAssets/WalletCollections.tsx
+msgid "Don't see your NFT?"
+msgstr "找不到您的NFT？"
+
+#: content-script/components/shared/SelectRecipients/SelectRecipientsDialog.tsx
+#: content-script/components/shared/SelectRecipients/SelectRecipientsDialog.tsx
+#: content-script/components/shared/SelectRecipients/SelectRecipientsDialog.tsx
+#: content-script/components/InjectedComponents/SelectPeopleDialog.tsx
+#: content-script/components/InjectedComponents/SetupGuide/AccountConnectStatus.tsx
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+#: popups/pages/Personas/ConnectWallet/index.tsx
+msgid "Done"
+msgstr "完成"
+
+#: content-script/components/InjectedComponents/AutoPasteFailedDialog.tsx
+msgid "Download"
+msgstr "下载"
+
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+msgid "Download backup"
+msgstr "下载备份"
+
+#: dashboard/pages/SetupPersona/LocalBackup/index.tsx
+msgid "Download Backup"
+msgstr "下载备份"
+
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+msgid "Downloading"
+msgstr "正在下载"
+
+#: popups/pages/Personas/PersonaAvatarSetting/index.tsx
+msgid "Drag & Drop your file here"
+msgstr "将您的文件拖放到此处"
+
+#: dashboard/pages/SetupPersona/CloudBackup/index.tsx
+msgid "E-mail"
+msgstr "电子邮件"
+
+#: popups/pages/Wallet/ContactList/index.tsx
+msgid "Edit"
+msgstr "编辑"
+
+#: popups/pages/Wallet/ContactList/index.tsx
+msgid "Edit Contact"
+msgstr "编辑联系人"
+
+#: content-script/components/shared/SelectRecipients/SelectRecipientsDialog.tsx
+#: content-script/components/shared/SelectProfileUI/SelectProfileUI.tsx
+msgid "eg: X accounts, persona public keys, wallet addresses or ENS"
+msgstr ""
+
+#: dashboard/pages/SetupPersona/CloudBackup/EmailForm.tsx
+#: dashboard/components/Restore/RestoreFromCloud/EmailField.tsx
+msgid "Email"
+msgstr "电子邮箱"
+
+#: dashboard/pages/SetupPersona/CloudBackup/EmailForm.tsx
+#: dashboard/components/Restore/RestoreFromCloud/EmailField.tsx
+msgid "Email verification code"
+msgstr "邮箱验证码"
+
+#: content-script/components/CompositionDialog/CompositionUI.tsx
+msgid "Enable auto paste"
+msgstr "启用自动粘贴"
+
+#: content-script/components/InjectedComponents/DisabledPluginSuggestion.tsx
+msgid "Enable the plugin"
+msgstr ""
+
+#: content-script/components/CompositionDialog/CompositionUI.tsx
+msgid "Encrypt"
+msgstr "加密"
+
+#: content-script/components/CompositionDialog/EncryptionMethodSelector.tsx
+msgid "Encrypt the message in an image"
+msgstr ""
+
+#: content-script/components/CompositionDialog/Composition.tsx
+msgid "Encrypted Post"
+msgstr "加密贴文"
+
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#~ msgid "Encrypting your"
+#~ msgstr ""
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+msgid "Encrypting your "
+msgstr ""
+
+#: content-script/components/CompositionDialog/EncryptionMethodSelector.tsx
+msgid "Encryption Method"
+msgstr "加密方式"
+
+#: popups/components/AddContactInputPanel/index.tsx
+msgid "Ens or Address(0x)"
+msgstr "Ens或地址(0x)"
+
+#: popups/pages/Wallet/GasSetting/Prior1559GasSetting.tsx
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+msgid "Enter a gas limit"
+msgstr "输入Gas Limit"
+
+#: popups/pages/Wallet/GasSetting/Prior1559GasSetting.tsx
+msgid "Enter a gas price"
+msgstr "输入 Gas 价格"
+
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+msgid "Enter a max fee"
+msgstr "请输入Max fee"
+
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+msgid "Enter a max priority fee"
+msgstr "请输入Max priority fee"
+
+#: popups/components/UnlockERC20Token/index.tsx
+msgid "Enter Max spend limit"
+msgstr "输入最大支出限额"
+
+#: popups/pages/Wallet/WalletSettings/ShowPrivateKey.tsx
+msgid "Enter Payment Password"
+msgstr "输入支付密码"
+
+#: dashboard/pages/CreateMaskWallet/CreateWalletForm/index.tsx
+msgid "Entered passwords are inconsistent."
+msgstr ""
+
+#. placeholder {0}: rejection.message
+#: content-script/components/InjectedComponents/SelectPeopleDialog.tsx
+msgid "Error: {0}"
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/AddDeriveWallet/index.tsx
+msgid "Ethereum {HD_PATH_WITHOUT_INDEX_ETHEREUM}"
+msgstr ""
+
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+msgid "Everyone"
+msgstr "任何用户可见"
+
+#: dashboard/pages/SetupPersona/SignUp/index.tsx
+msgid "Example: Alice"
+msgstr "示例：Alice"
+
+#: popups/pages/Trader/Header.tsx
+#: popups/pages/Trader/Header.tsx
+msgid "Exchange"
+msgstr ""
+
+#: dashboard/pages/SetupPersona/PermissionOnboarding/index.tsx
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+msgid "Experience in X"
+msgstr "Twitter体验"
+
+#: content-script/components/InjectedComponents/ToolboxUnstyled.tsx
+msgid "Explore multi-chain dApps."
+msgstr "点击这里快速访问主要功能。"
+
+#: popups/pages/Wallet/ExportPrivateKey/index.tsx
+#: popups/modals/VerifyBackupPasswordModal/index.tsx
+msgid "Export"
+msgstr "导出"
+
+#: popups/pages/Wallet/components/ActivityList/ActivityItem.tsx
+#: popups/pages/Wallet/components/ActivityList/ActivityItem.tsx
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Failed"
+msgstr "失败"
+
+#: popups/pages/Personas/ConnectWallet/index.tsx
+msgid "Failed to add the wallet, please try again."
+msgstr "添加钱包失败，请重试。"
+
+#: content-script/components/InjectedComponents/DecryptedPost/DecryptPostFailed.tsx
+msgid "Failed to decrypt."
+msgstr ""
+
+#: popups/components/ConnectedWallet/index.tsx
+msgid "Failed to disconnect wallet"
+msgstr ""
+
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+msgid "Failed to download and merge the backup."
+msgstr ""
+
+#: popups/pages/Wallet/EditNetwork/index.tsx
+msgid "Failed to save network"
+msgstr "无法保存网络"
+
+#: popups/pages/Personas/PersonaAvatarSetting/index.tsx
+#: popups/pages/Personas/PersonaAvatarSetting/index.tsx
+msgid "Failed to set Avatar."
+msgstr "加载头像失败。"
+
+#: popups/pages/Wallet/Transfer/FungibleTokenSection.tsx
+msgid "Failed to transfer token: {message}"
+msgstr ""
+
+#: popups/pages/Settings/index.tsx
+msgid "FAQ&Tutorial"
+msgstr ""
+
+#: popups/pages/Settings/index.tsx
+msgid "Feedback"
+msgstr "问题反馈"
+
+#: dashboard/components/BackupPreview/index.tsx
+msgid "File"
+msgstr "文件"
+
+#: content-script/components/InjectedComponents/SetupGuide/PinExtension.tsx
+msgid "Find Mask Network in the extension list and click the <0/> button."
+msgstr ""
+
+#: popups/pages/Wallet/CollectibleDetail/index.tsx
+msgid "Floor price"
+msgstr "地板价"
+
+#: content-script/components/CompositionDialog/useSubmit.ts
+msgid "Follow @{officialAccount} for Web3 updates and insights."
+msgstr ""
+
+#: content-script/components/InjectedComponents/SetupGuide/index.tsx
+msgid "Follow @realMaskNetwork to explore Web3."
+msgstr ""
+
+#: popups/pages/Settings/index.tsx
+#: popups/pages/Settings/index.tsx
+#: popups/modals/SelectLanguageModal/index.tsx
+#: popups/modals/SelectAppearanceModal/index.tsx
+msgid "Follow System"
+msgstr "跟随系统"
+
+#: popups/pages/Wallet/Unlock/index.tsx
+msgid "Forgot payment password?"
+msgstr "设置支付密码?"
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "From"
+msgstr "从"
+
+#: popups/pages/Wallet/components/ActivityList/ActivityItem.tsx
+msgid "from <0>{fromAddress}</0>"
+msgstr ""
+
+#. placeholder {0}: transaction.formattedTransaction.popup.method
+#: popups/pages/Wallet/Interaction/TransactionRequest.tsx
+msgid "Function: {0}"
+msgstr "功能：{0}"
+
+#: popups/pages/Wallet/Transfer/FungibleTokenSection.tsx
+#: popups/pages/Wallet/ChangeOwner/index.tsx
+#: popups/modals/GasSettingModal/index.tsx
+#: popups/components/UnlockERC721Token/index.tsx
+#: popups/components/UnlockERC20Token/index.tsx
+#: popups/components/TransactionPreview/index.tsx
+msgid "Gas Fee"
+msgstr ""
+
+#: popups/pages/Wallet/GasSetting/index.tsx
+#: popups/pages/Wallet/GasSetting/index.tsx
+msgid "Gas fee settings"
+msgstr "Gas 费用设置"
+
+#: popups/pages/Wallet/GasSetting/index.tsx
+msgid "Gas fees are the fees for paying ethereum block builders. Block builders prefer to pack transactions with higher gas fees. Transactions with low gas fees might fail, and the paid gas fees won't be returned."
+msgstr ""
+
+#: popups/pages/Wallet/GasSetting/Prior1559GasSetting.tsx
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Gas Limit"
+msgstr "Gas 限制"
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Gas Limit (Units)"
+msgstr "Gas 限制(Gwei)"
+
+#. placeholder {0}: String(minGasLimit)
+#: popups/pages/Wallet/GasSetting/Prior1559GasSetting.tsx
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+msgid "Gas limit must be at least {0}"
+msgstr "Gas limit 必须至少 {0}"
+
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Gas limit must be bigger than {minGas}."
+msgstr ""
+
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Gas limit must be smaller than {maxGas}."
+msgstr ""
+
+#: popups/pages/Wallet/GasSetting/Prior1559GasSetting.tsx
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Gas Price"
+msgstr "Gas 价格"
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Gas Price (GWEI)"
+msgstr "Gas 价格 (gwei)"
+
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Gas price is too low and will cause the transaction fail"
+msgstr ""
+
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Gas price should be greater than 0"
+msgstr "Gas 价格必须大于 0。"
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Gas Used (Units)"
+msgstr "所用 Gas (单位)"
+
+#: popups/pages/Settings/index.tsx
+msgid "General"
+msgstr "概况"
+
+#: popups/pages/Personas/Home/UI.tsx
+msgid "Generate a new persona"
+msgstr "创建一个新的身份"
+
+#: popups/pages/Wallet/components/ImportCreateWallet/index.tsx
+msgid "Generate a new wallet address"
+msgstr "生成一个新的钱包地址"
+
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#~ msgid "Generating your"
+#~ msgstr ""
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+msgid "Generating your "
+msgstr ""
+
+#. placeholder {0}: contract?.symbol || ''
+#. placeholder {0}: token?.symbol || ''
+#: popups/components/UnlockERC721Token/index.tsx
+#: popups/components/UnlockERC20Token/index.tsx
+msgid "Give permission to access <0/> your {0}?"
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+msgid "Got it"
+msgstr "好的"
+
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Gwei"
+msgstr ""
+
+#: popups/hooks/useGasOptionsMenu.tsx
+#: popups/hooks/useGasOptionsMenu.tsx
+#: popups/hooks/useGasOptionsMenu.tsx
+msgid "GWEI"
+msgstr ""
+
+#: content-script/components/InjectedComponents/SetupGuide/index.tsx
+msgid "Hello Mask world. This is my first encrypted message. Install https://mask.io to send me encrypted post."
+msgstr ""
+
+#: content-script/site-adaptors/twitter.com/injection/PostDialogHint.tsx
+msgid "Hello Mask world. This is my first encrypted message. Install https://mask.io to send me encrypted post. Follow @realMaskNetwork to explore Web3."
+msgstr ""
+
+#: content-script/components/CompositionDialog/useSubmit.ts
+msgid "Hi friends, I just created {token} Lucky Drop. Download Mask.io to claim."
+msgstr ""
+
+#. placeholder {0}: asset.symbol
+#: popups/pages/Wallet/TokenDetail/index.tsx
+msgid "Hide {0}"
+msgstr "隐藏 {0}"
+
+#: popups/pages/Wallet/CollectibleDetail/index.tsx
+msgid "Hide {name}"
+msgstr ""
+
+#: popups/components/MnemonicDisplay/index.tsx
+msgid "Hide mnemonic words"
+msgstr ""
+
+#: popups/pages/Wallet/components/AssetsList/MoreBar.tsx
+msgid "Hide tokens with value less than $1"
+msgstr "隐藏价值小于 $1 的代币"
+
+#: popups/pages/Wallet/WalletSettings/HidingScamTx.tsx
+msgid "Hiding Scam Transactions"
+msgstr "隐藏Scam 交易"
+
+#: popups/pages/Wallet/GasSetting/Prior1559GasSetting.tsx
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+#: popups/hooks/useGasOptionsMenu.tsx
+#: popups/components/GasSettingMenu/index.tsx
+msgid "High"
+msgstr "高速"
+
+#: popups/pages/Trader/Header.tsx
+msgid "History"
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Mnemonic/index.tsx
+msgid "I wrote down those words in the correct order"
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+msgid "identity"
+msgstr "身份"
+
+#: dashboard/pages/SetupPersona/Mnemonic/ComponentToPrint.tsx
+msgid "Identity ID"
+msgstr "身份助记词"
+
+#: popups/pages/Wallet/ResetWallet/index.tsx
+msgid "If you forget payment password, you can type 'RESET' to reset your wallet. <0>Remember, this action will erase all your previous wallets.</0>"
+msgstr ""
+
+#: content-script/components/CompositionDialog/EncryptionMethodSelector.tsx
+#: content-script/components/CompositionDialog/EncryptionMethodSelector.tsx
+#: popups/pages/Personas/PersonaAvatarSetting/index.tsx
+msgid "Image"
+msgstr "图片"
+
+#: content-script/components/InjectedComponents/AutoPasteFailedDialog.tsx
+msgid "Image copied!"
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/index.tsx
+msgid "Import"
+msgstr "导入"
+
+#: popups/pages/Wallet/components/WalletAssets/WalletCollections.tsx
+msgid "Import NFT"
+msgstr "导入 NFT"
+
+#: popups/pages/Wallet/SwitchWallet/index.tsx
+msgid "Import Wallet"
+msgstr "导入钱包"
+
+#: popups/pages/Wallet/components/ImportCreateWallet/index.tsx
+msgid "Import Wallets"
+msgstr "导入钱包"
+
+#: popups/components/WalletItem/index.tsx
+msgid "Imported"
+msgstr "已导入"
+
+#: popups/modals/WalletGroupModal/index.tsx
+msgid "Imported Wallets"
+msgstr "导入钱包"
+
+#: popups/modals/VerifyBackupPasswordModal/index.tsx
+#: popups/modals/ChangeBackupPasswordModal/index.tsx
+msgid "Incorrect backup password."
+msgstr "密码不正确。"
+
+#: dashboard/components/Restore/RestorePersonaFromLocal.tsx
+msgid "Incorrect Backup Password."
+msgstr "备份密码错误。"
+
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+msgid "Incorrect cloud backup password, please try again."
+msgstr "云备份密码不正确，请重试。"
+
+#: dashboard/pages/CreateMaskWallet/Recovery/index.tsx
+msgid "Incorrect Keystore Password."
+msgstr "Keystore 密码不正确。"
+
+#: dashboard/pages/CreateMaskWallet/Recovery/index.tsx
+msgid "Incorrect Mnemonic Words."
+msgstr ""
+
+#: popups/pages/Wallet/Unlock/index.tsx
+#: popups/pages/Personas/Logout/index.tsx
+#: popups/pages/Personas/Logout/index.tsx
+msgid "Incorrect password"
+msgstr "密码不正确"
+
+#: dashboard/pages/SetupPersona/LocalBackup/index.tsx
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+#: dashboard/hooks/useBackupFormState.ts
+#: dashboard/hooks/useBackupFormState.ts
+#: dashboard/hooks/useBackupFormState.ts
+#: dashboard/hooks/useBackupFormState.ts
+#: dashboard/hooks/useBackupFormState.ts
+#: dashboard/hooks/useBackupFormState.ts
+#: dashboard/hooks/useBackupFormState.ts
+msgid "Incorrect Password"
+msgstr "密码不正确"
+
+#: popups/pages/Personas/Logout/index.tsx
+msgid "Incorrect payment password."
+msgstr "支付密码错误。"
+
+#: popups/modals/WalletRemoveModal/index.tsx
+#: popups/modals/ShowPrivateKeyModal/index.tsx
+msgid "Incorrect Payment Password."
+msgstr "支付密码错误。"
+
+#: dashboard/pages/SetupPersona/Recovery/index.tsx
+#: dashboard/pages/CreateMaskWallet/Recovery/index.tsx
+msgid "Incorrect Private Key"
+msgstr "私钥不正确"
+
+#: dashboard/pages/SetupPersona/Recovery/index.tsx
+msgid "Incorrect recovery phrase."
+msgstr "助记词不正确。"
+
+#: popups/modals/AddContactModal/index.tsx
+#: popups/hooks/useContactsContext.ts
+msgid "Incorrect wallet address."
+msgstr "无效钱包地址。"
+
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/index.tsx
+msgid "Incorrect words selected. Please try again!"
+msgstr ""
+
+#: dashboard/components/Restore/RestoreFromPrivateKey.tsx
+msgid "Input your Private Key"
+msgstr "输入您的私钥"
+
+#: popups/hooks/useGasOptionsMenu.tsx
+#: popups/components/GasSettingMenu/index.tsx
+msgid "Instant"
+msgstr "即时"
+
+#: popups/pages/Wallet/Transfer/FungibleTokenSection.tsx
+msgid "Insufficient funds for gas."
+msgstr "Gas 不足。"
+
+#: popups/pages/Wallet/EditNetwork/network-schema.ts
+msgid "Invalid Block Explorer URL."
+msgstr "无效的块浏览器URL。"
+
+#: dashboard/pages/SetupPersona/CloudBackup/EmailForm.tsx
+#: dashboard/contexts/CloudBackupFormContext.tsx
+msgid "Invalid email address format."
+msgstr "邮箱地址不正确。"
+
+#: dashboard/components/Restore/RestoreFromCloud/EmailField.tsx
+msgid "Invalid email address."
+msgstr ""
+
+#: popups/pages/Wallet/EditNetwork/network-schema.ts
+msgid "Invalid number"
+msgstr "数字无效"
+
+#: dashboard/components/Restore/RestoreFromCloud/PhoneField.tsx
+msgid "Invalid phone number, please check and try again."
+msgstr "无效的电话号码，请检查并重试。"
+
+#: popups/pages/Wallet/EditNetwork/network-schema.ts
+msgid "Invalid RPC URL."
+msgstr "无效 RPC URL 。"
+
+#: dashboard/components/Restore/RestoreFromCloud/PhoneField.tsx
+#: dashboard/components/Restore/RestoreFromCloud/EmailField.tsx
+msgid "Invalid verification code."
+msgstr "验证码错误。"
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Issued at"
+msgstr ""
+
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+msgid "Just Me"
+msgstr "仅自己可见"
+
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+msgid "Just Selected Contacts"
+msgstr "仅选定的联系人可见"
+
+#: popups/pages/Wallet/components/StartUp/index.tsx
+msgid "Keep your transactions and assets safe with Mask Wallet."
+msgstr "使用 Mask 钱包来保证您的交易和资产安全。"
+
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/index.tsx
+msgid "Kept safely"
+msgstr "确认保存"
+
+#: dashboard/pages/CreateMaskWallet/Recovery/index.tsx
+#: popups/pages/Wallet/ExportPrivateKey/index.tsx
+#: popups/pages/Wallet/ExportPrivateKey/index.tsx
+msgid "Keystore"
+msgstr "密钥库"
+
+#: dashboard/components/Restore/RestoreWalletFromLocal.tsx
+msgid "Keystore password"
+msgstr "Keystore密码"
+
+#: popups/modals/SetBackupPasswordModal/index.tsx
+#: popups/modals/ChangeBackupPasswordModal/index.tsx
+#: popups/modals/ChangeBackupPasswordModal/index.tsx
+#: popups/modals/ChangeBackupPasswordModal/index.tsx
+msgid "Lack of number, letter or special character."
+msgstr "缺少数字、字母或特殊字符。"
+
+#: popups/pages/Settings/index.tsx
+msgid "Language"
+msgstr "语言"
+
+#: popups/pages/Settings/index.tsx
+#: popups/modals/SelectAppearanceModal/index.tsx
+msgid "Light"
+msgstr "浅色"
+
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Likely in < {estimateSecond} seconds"
+msgstr ""
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Link"
+msgstr "交易记录"
+
+#: content-script/components/InjectedComponents/ProfileTabContent.tsx
+msgid "Load failed"
+msgstr "加载失败"
+
+#: content-script/components/shared/SelectRecipients/SelectRecipientsDialog.tsx
+#: popups/pages/Friends/Home/UI.tsx
+#: popups/components/WalletSettingList/index.tsx
+msgid "Loading"
+msgstr "加载中"
+
+#: content-script/components/InjectedComponents/ProfileTabContent.tsx
+msgid "Loading account information..."
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Recovery/index.tsx
+#: popups/pages/Settings/index.tsx
+msgid "Local Backup"
+msgstr "本地备份"
+
+#: popups/pages/Wallet/ChangeOwner/index.tsx
+msgid "Local persona or wallet only"
+msgstr "仅限本地身份或钱包"
+
+#: popups/pages/Wallet/SwitchWallet/index.tsx
+msgid "Lock Wallet"
+msgstr "锁定钱包"
+
+#: popups/pages/Personas/Logout/index.tsx
+#: popups/pages/Personas/Logout/index.tsx
+#: popups/modals/PersonaSettingModal/index.tsx
+msgid "Log out"
+msgstr "登出"
+
+#: dashboard/pages/SetupPersona/CloudBackup/index.tsx
+msgid "Login to Mask Cloud"
+msgstr ""
+
+#: popups/pages/Personas/Logout/index.tsx
+msgid "Logout failed"
+msgstr "登出失败"
+
+#: popups/pages/Personas/Logout/index.tsx
+msgid "Logout successfully"
+msgstr "退出成功"
+
+#: popups/pages/Wallet/GasSetting/Prior1559GasSetting.tsx
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+msgid "Low"
+msgstr "低"
+
+#: popups/pages/Wallet/NetworkManagement/index.tsx
+#: popups/modals/ChooseNetworkModal/index.tsx
+msgid "Manage Network"
+msgstr "管理网络"
+
+#: popups/modals/SupportedSitesModal/index.tsx
+msgid "Manage the permissions of the Mask Network. Once turned off, Mask Network will not be turned on on those websites."
+msgstr ""
+
+#: popups/pages/RequestPermission/RequestPermission.tsx
+msgid "Mask needs the following permissions"
+msgstr "Mask Network需要以下权限"
+
+#: content-script/components/InjectedComponents/ToolboxUnstyled.tsx
+#: content-script/components/InjectedComponents/PostDialogHint.tsx
+msgid "Mask Network"
+msgstr ""
+
+#: content-script/components/InjectedComponents/PermissionBoundary.tsx
+msgid "Mask Network requires you to authorize the following websites before using it."
+msgstr ""
+
+#: content-script/components/CompositionDialog/useSubmit.ts
+msgid "masknetwork"
+msgstr ""
+
+#: popups/pages/Wallet/Transfer/FungibleTokenSection.tsx
+#: popups/components/UnlockERC20Token/index.tsx
+msgid "Max"
+msgstr "最大"
+
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Max Fee"
+msgstr "最大费用"
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Max Fee (GWEI)"
+msgstr "最大手续费 (GWEI)"
+
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+msgid "Max fee cannot be lower than max priority fee"
+msgstr "Max fee 不能低于 Max priority fee"
+
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+msgid "Max fee is higher than necessary"
+msgstr "Max fee 高于必要值"
+
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+msgid "Max fee is too low for network conditions."
+msgstr "Max fee 在当前网络环境下过低"
+
+#. placeholder {0}: formatWeiToGwei(miniumMaxFeePerGas).toFixed(2, BigNumber.ROUND_UP)
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Max fee should be greater than base fee of {0} Gwei."
+msgstr ""
+
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Max Priority Fee"
+msgstr "最大优先费"
+
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+msgid "Max priority fee is higher than necessary. You may pay more than needed."
+msgstr "Max priority fee过高。您或许支付了超过需要的费用。"
+
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Max priority fee is too high for network conditions."
+msgstr "最大优先费用在当前网络环境下过高。"
+
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+msgid "Max priority fee is too low for network conditions"
+msgstr "Max priority fee 在当前网络环境下过低"
+
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Max priority fee is too low for network conditions."
+msgstr "最大优先费用在当前网络环境下过低。"
+
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+msgid "Max priority fee must be greater than 0 GWEI"
+msgstr "Max priority fee必须大于 0 GWEI"
+
+#: popups/pages/Wallet/GasSetting/Prior1559GasSetting.tsx
+#: popups/pages/Wallet/GasSetting/GasSetting1559.tsx
+#: popups/hooks/useGasOptionsMenu.tsx
+#: popups/components/GasSettingMenu/index.tsx
+msgid "Medium"
+msgstr "中等"
+
+#: dashboard/pages/SetupPersona/CloudBackupPreview/index.tsx
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+msgid "Merge data to local database"
+msgstr "合并数据到本地数据库"
+
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+msgid "Merge to local"
+msgstr "合并至本地数据"
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Message"
+msgstr "信息"
+
+#: dashboard/pages/CreateMaskWallet/Recovery/index.tsx
+#: popups/pages/Wallet/ExportPrivateKey/index.tsx
+msgid "Mnemonic"
+msgstr "助记词"
+
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/ComponentToPrint.tsx
+msgid "Mnemonic word"
+msgstr "助记词"
+
+#: dashboard/pages/SetupPersona/CloudBackup/index.tsx
+msgid "Mobile"
+msgstr "手机"
+
+#: dashboard/pages/SetupPersona/CloudBackup/PhoneForm.tsx
+msgid "Mobile number"
+msgstr "手机号码"
+
+#: dashboard/components/Restore/RestoreFromCloud/PhoneField.tsx
+msgid "Mobile verification code"
+msgstr "手机验证码"
+
+#. placeholder {0}: String(currentMessageIndex + 1)
+#. placeholder {1}: String(totalMessages)
+#: popups/pages/Wallet/Interaction/interaction.tsx
+msgid "Multiple transaction requests {0} / {1}"
+msgstr "多笔交易请求 {0}/ {1}"
+
+#: popups/pages/Wallet/ContactList/index.tsx
+msgid "My Wallets"
+msgstr "钱包"
+
+#: popups/pages/Wallet/CollectibleDetail/index.tsx
+#: popups/pages/Wallet/CollectibleDetail/index.tsx
+#: popups/pages/Wallet/CollectibleDetail/index.tsx
+msgid "N/A"
+msgstr "没有"
+
+#: popups/modals/PersonaSettingModal/index.tsx
+#: popups/modals/EditContactModal/index.tsx
+#: popups/modals/AddContactModal/index.tsx
+msgid "Name"
+msgstr "名称"
+
+#: popups/components/TokenPicker/index.tsx
+msgid "Name or Contract address e.g. USDC or 0x234..."
+msgstr ""
+
+#: popups/modals/ChooseNetworkModal/index.tsx
+msgid "Network"
+msgstr "网络"
+
+#: popups/pages/Wallet/EditNetwork/index.tsx
+msgid "Network added"
+msgstr ""
+
+#: popups/pages/Wallet/Transfer/NonFungibleTokenSection.tsx
+msgid "Network error or execute smart contract failed."
+msgstr "网络错误或执行智能合同失败。"
+
+#: popups/pages/Trader/Header.tsx
+msgid "Network fee"
+msgstr ""
+
+#: popups/pages/Wallet/EditNetwork/index.tsx
+msgid "Network Name"
+msgstr "网络名称"
+
+#: popups/pages/Wallet/EditNetwork/index.tsx
+msgid "Network removed."
+msgstr ""
+
+#: popups/pages/Wallet/EditNetwork/index.tsx
+msgid "Network saved"
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/index.tsx
+msgid "Never share 12-word secret mnemonic with anyone!"
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Mnemonic/index.tsx
+msgid "Never share the 12-word secret mnemonic words with anyone!"
+msgstr ""
+
+#: popups/modals/ChangeBackupPasswordModal/index.tsx
+msgid "New password"
+msgstr "新密码"
+
+#: popups/modals/ChangeBackupPasswordModal/index.tsx
+msgid "New password cannot be the same as your current password."
+msgstr "新密码与当前密码不可相同。"
+
+#: popups/modals/ChangePaymentPasswordModal/index.tsx
+msgid "New Payment Password"
+msgstr "新支付密码"
+
+#: content-script/components/GuideStep/index.tsx
+#: dashboard/pages/CreateMaskWallet/AddDeriveWallet/index.tsx
+#: popups/pages/Wallet/Transfer/FungibleTokenSection.tsx
+#: popups/pages/Wallet/ContactList/index.tsx
+msgid "Next"
+msgstr "下一步"
+
+#: popups/modals/PersonaSettingModal/index.tsx
+msgid "Next.ID"
+msgstr ""
+
+#: popups/pages/Wallet/components/WalletAssets/index.tsx
+#: popups/pages/Wallet/Transfer/index.tsx
+#: popups/pages/Wallet/AddToken/index.tsx
+#: popups/pages/Personas/PersonaAvatarSetting/index.tsx
+msgid "NFTs"
+msgstr ""
+
+#: popups/pages/Wallet/AddToken/index.tsx
+msgid "NFTs added"
+msgstr ""
+
+#: popups/pages/Friends/Detail/UI.tsx
+msgid "No associated accounts"
+msgstr "无关联账号"
+
+#: popups/components/WalletSettingList/index.tsx
+msgid "No associated wallet. <0>Add Wallet.</0>"
+msgstr ""
+
+#: popups/pages/Settings/index.tsx
+#: popups/pages/Settings/index.tsx
+msgid "No back up"
+msgstr "没有备份"
+
+#: dashboard/pages/SetupPersona/CloudBackupPreview/index.tsx
+msgid "No backups found"
+msgstr "没有发现备份"
+
+#: popups/pages/Friends/Contacts/index.tsx
+msgid "No contacts stored locally, you can try searching."
+msgstr ""
+
+#: popups/pages/Wallet/components/ActivityList/index.tsx
+msgid "No Data"
+msgstr "暂无数据"
+
+#: content-script/components/shared/SelectRecipients/SelectRecipientsDialog.tsx
+#: content-script/components/shared/SelectProfileUI/SelectProfileUI.tsx
+msgid "No friends are stored locally, please try search one."
+msgstr ""
+
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+msgid "No local key"
+msgstr "缺失本地密钥"
+
+#: popups/components/TokenPicker/index.tsx
+msgid "No matched tokens"
+msgstr ""
+
+#: popups/components/NFTAvatarPicker/CollectionList.tsx
+msgid "No NFTs found."
+msgstr "没有找到任何NFT。"
+
+#: content-script/components/shared/SelectRecipients/SelectRecipients.tsx
+msgid "No results"
+msgstr "没有任何结果。"
+
+#: popups/pages/Friends/SearchList/index.tsx
+msgid "No search results"
+msgstr "找不到搜索结果。"
+
+#: popups/pages/Wallet/ConnectedSites/index.tsx
+msgid "No websites connected to this wallet"
+msgstr ""
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Nonce"
+msgstr ""
+
+#: popups/modals/ConnectProvider/index.tsx
+msgid "Not connected"
+msgstr "未连接"
+
+#: popups/pages/Wallet/components/WalletHeader/UI.tsx
+msgid "Not Connected"
+msgstr ""
+
+#: popups/pages/Wallet/TokenDetail/index.tsx
+msgid "Not enough data to present."
+msgstr "没有足够可显示的数据"
+
+#: popups/modals/ConnectProvider/index.tsx
+msgid "Not found your {providerType} wallet"
+msgstr ""
+
+#: popups/pages/Settings/index.tsx
+msgid "Not set"
+msgstr "未设置"
+
+#: popups/pages/Wallet/ResetWallet/index.tsx
+msgid "Note: If you using the mnemonic phrase from your last import, you can recover the wallet derived from that mnemonic phrase."
+msgstr "注意：如果您使用最后一次导入中的助记词，您可以恢复来自该助记词句的钱包。"
+
+#: content-script/components/InjectedComponents/SetupGuide/VerifyNextID.tsx
+msgid "OK"
+msgstr "好的"
+
+#: popups/pages/Wallet/WalletSettings/DisablePermit.tsx
+msgid "Okay"
+msgstr ""
+
+#: popups/modals/ChangePaymentPasswordModal/index.tsx
+msgid "Old Payment Password"
+msgstr "原支付密码"
+
+#: content-script/components/InjectedComponents/DecryptedPost/DecryptedPostSuccess.tsx
+msgid "Only visible to yourself"
+msgstr "只对您可见"
+
+#: content-script/components/InjectedComponents/AutoPasteFailedDialog.tsx
+msgid "Open in a new tab"
+msgstr "在新分页中打开"
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+msgid "Open Mask Wallet"
+msgstr "打开一个钱包"
+
+#: popups/pages/Personas/PersonaAvatarSetting/index.tsx
+msgid "Or"
+msgstr "或"
+
+#: popups/pages/Wallet/CreateWallet/index.tsx
+msgid "Or create a new wallet group"
+msgstr "或者创建一个新的钱包组"
+
+#. placeholder {0}: author.userId
+#: content-script/components/InjectedComponents/DecryptedPost/authorDifferentMessage.tsx
+msgid "Originally posted by {0}"
+msgstr "最初发布于 {0}"
+
+#: popups/pages/Personas/AccountDetail/UI.tsx
+msgid "Other social networking platforms, such as <0>Instagram, </0><1>Facebook,</1> and <2>Minds,</2> do not have a verified relationship like X's Next.ID verified connection.<3/><4/>When connecting a persona with an account on these platforms, they only support sending encrypted posts."
+msgstr ""
+
+#: dashboard/pages/SetupPersona/CloudBackupPreview/index.tsx
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+msgid "Overwrite Backup"
+msgstr "覆盖备份"
+
+#: dashboard/pages/SetupPersona/CloudBackupPreview/index.tsx
+msgid "Overwrite current backup"
+msgstr "覆盖当前备份"
+
+#: popups/modals/VerifyBackupPasswordModal/index.tsx
+#: popups/modals/SetBackupPasswordModal/index.tsx
+#: popups/modals/ChangeBackupPasswordModal/index.tsx
+msgid "Password"
+msgstr "密码"
+
+#: content-script/components/InjectedComponents/AutoPasteFailedDialog.tsx
+msgid "Paste manually"
+msgstr "手动粘贴"
+
+#: dashboard/pages/SetupPersona/LocalBackup/index.tsx
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+#: popups/pages/Wallet/SetPaymentPassword/index.tsx
+#: popups/modals/WalletRemoveModal/index.tsx
+#: popups/modals/ShowPrivateKeyModal/index.tsx
+msgid "Payment Password"
+msgstr "支付密码"
+
+#: popups/modals/ChangePaymentPasswordModal/index.tsx
+msgid "Payment password changed."
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/CreateWalletForm/index.tsx
+#: dashboard/pages/CreateMaskWallet/CreateWalletForm/index.tsx
+#: popups/pages/Wallet/hooks/usePasswordForm.ts
+#: popups/pages/Wallet/hooks/usePasswordForm.ts
+#: popups/modals/ChangePaymentPasswordModal/index.tsx
+msgid "Payment password must be 6 to 20 characters."
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+msgid "Payment password set."
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/CreateWalletForm/index.tsx
+msgid "Payment Password should be between 6 and 20 characters."
+msgstr "支付密码应该介于 6 到 20 个字符之间。"
+
+#: popups/pages/Wallet/ResetWallet/index.tsx
+msgid "Payment password stored locally and you could try as many as you want to unlock your wallet."
+msgstr ""
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Pending"
+msgstr "待定"
+
+#: popups/pages/RequestPermission/RequestPermission.tsx
+msgid "Permissions"
+msgstr "许可权限"
+
+#: popups/modals/UpdatePermissionModal/index.tsx
+msgid "Permissions List"
+msgstr ""
+
+#: popups/modals/PersonaSettingModal/index.tsx
+msgid "Persona"
+msgstr "身份"
+
+#: dashboard/pages/SetupPersona/SignUp/index.tsx
+msgid "Persona already exists."
+msgstr "该身份已存在。"
+
+#: dashboard/pages/SignUp/steps/PersonaRecovery.tsx
+msgid "Persona created."
+msgstr ""
+
+#: dashboard/pages/SignUp/steps/PersonaNameUI.tsx
+#: dashboard/pages/SetupPersona/SignUp/index.tsx
+msgid "Persona Name"
+msgstr "身份名称"
+
+#: popups/modals/PersonaRenameModal/index.tsx
+msgid "Persona name must between 1 to 24 characters."
+msgstr "身份名称必须介于 1 到 24 个字符之间。"
+
+#: dashboard/pages/SetupPersona/Mnemonic/index.tsx
+msgid "Persona Recovery Phrase"
+msgstr "您的恢复口令"
+
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+msgid "Persona required."
+msgstr "必须拥有身份"
+
+#: dashboard/pages/SetupPersona/Mnemonic/ComponentToPrint.tsx
+msgid "Persona: {personaName}"
+msgstr ""
+
+#: dashboard/components/BackupPreview/index.tsx
+msgid "Personas"
+msgstr "身份"
+
+#: dashboard/pages/SetupPersona/CloudBackup/PhoneForm.tsx
+msgid "Phone verification code"
+msgstr "验证码"
+
+#: dashboard/pages/SetupPersona/PermissionOnboarding/index.tsx
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+msgid "Pin Mask Network to the toolbar for easier access:"
+msgstr "将 Mask Network 固定到工具栏以便更容易访问："
+
+#: content-script/components/InjectedComponents/SetupGuide/PinExtension.tsx
+msgid "Pinned successfully."
+msgstr "固定成功。"
+
+#: content-script/site-adaptors/facebook.com/injection/Composition.tsx
+#: content-script/components/InjectedComponents/SetupGuide/index.tsx
+msgid "Please click the \"Post\" button to open the compose dialog."
+msgstr ""
+
+#: content-script/components/InjectedComponents/AutoPasteFailedDialog.tsx
+msgid "Please copy the following text and image (if there is one) and publish it."
+msgstr ""
+
+#: popups/modals/VerifyBackupPasswordModal/index.tsx
+msgid "Please enter backup password to export persona private key."
+msgstr "请输入导出个人私钥的备份密码。"
+
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+msgid "Please enter cloud backup password to download file."
+msgstr "请输入云备份密码以下载文件。"
+
+#: dashboard/pages/CreateMaskWallet/Recovery/index.tsx
+msgid "Please enter the correct mnemonic words, private key, or upload the correct keystore file."
+msgstr ""
+
+#: popups/pages/Personas/Logout/index.tsx
+#: popups/pages/Personas/Logout/index.tsx
+msgid "Please enter your backup password."
+msgstr "输入您的密码"
+
+#: popups/pages/Personas/Logout/index.tsx
+msgid "Please enter your payment password."
+msgstr "请输入密码。"
+
+#: popups/modals/ConnectProvider/index.tsx
+msgid "Please install your metamask wallet and set up your first wallet."
+msgstr "请安装您的 metamask 钱包并设置您的第一个钱包。"
+
+#. placeholder {0}: currentPersona.nickname
+#. placeholder {1}: manageWallets.length
+#: popups/pages/Personas/Logout/index.tsx
+msgid "Please note: This Persona {0} is the management account of above listed SmartPay {1, plural, one {wallet} other {wallets}}. You cannot use SmartPay wallet to interact with blockchain after logging out persona."
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Recovery/index.tsx
+#: dashboard/pages/SetupPersona/LocalBackup/index.tsx
+#: dashboard/pages/SetupPersona/CloudBackupPreview/index.tsx
+msgid "Please select the appropriate method to restore your personal data."
+msgstr "请选择合适的方法来恢复个人数据。"
+
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/index.tsx
+msgid "Please select the correct words in the correct order."
+msgstr ""
+
+#: popups/pages/Settings/index.tsx
+#: popups/pages/Settings/index.tsx
+msgid "Please set the backup password to back up"
+msgstr "请设置备份密码"
+
+#: popups/modals/SetBackupPasswordModal/index.tsx
+msgid "Please set up backup password to export private key."
+msgstr "请在导出私钥之前设置您的备份密码。"
+
+#: popups/modals/WalletAutoLockSettingModal/index.tsx
+msgid "Please set up the amount of time before we automatically lock your wallet."
+msgstr "请在自动锁定您的钱包之前设置时间。"
+
+#: content-script/components/InjectedComponents/SetupGuide/AccountConnectStatus.tsx
+msgid "Please sign up or login {siteName} to connect Mask Network."
+msgstr ""
+
+#: content-script/components/InjectedComponents/SetupGuide/AccountConnectStatus.tsx
+msgid "Please switch to <0>@{expectAccount}</0> to continue the account verification progress."
+msgstr ""
+
+#: dashboard/pages/SetupPersona/CloudBackup/index.tsx
+msgid "Please use your frequently used email or phone number for backup."
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/index.tsx
+msgid "Please write down or copy these words and save them in a secure place."
+msgstr ""
+
+#: popups/pages/Wallet/ExportPrivateKey/index.tsx
+msgid "Please write down the following words in correct order. Keep it safe and do not share with anyone!"
+msgstr "请按正确顺序写下以下单词。保证安全，不与任何人分享！"
+
+#: content-script/components/CompositionDialog/CompositionUI.tsx
+msgid "Plugins"
+msgstr "插件"
+
+#: content-script/components/InjectedComponents/SetupGuide/VerifyNextID.tsx
+#: content-script/components/InjectedComponents/SetupGuide/VerifyNextID.tsx
+msgid "Post content:"
+msgstr "发布内容："
+
+#: content-script/components/InjectedComponents/ProfileCard/index.tsx
+msgid "Powered by <0>Mask Network</0>"
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/AddDeriveWallet/index.tsx
+msgid "Previous"
+msgstr "上一页"
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Priority Fee (GWEI)"
+msgstr "优先费用 (GWEI)"
+
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Priority fee should be greater than 0."
+msgstr ""
+
+#: popups/pages/Settings/index.tsx
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+msgid "Private"
+msgstr "私密"
+
+#: dashboard/pages/SetupPersona/Recovery/index.tsx
+#: dashboard/pages/CreateMaskWallet/Recovery/index.tsx
+#: popups/pages/Wallet/ExportPrivateKey/index.tsx
+#: popups/pages/Wallet/ExportPrivateKey/index.tsx
+#: popups/pages/Personas/ExportPrivateKey/index.tsx
+msgid "Private Key"
+msgstr "私钥"
+
+#: popups/pages/Personas/PersonaAvatarSetting/index.tsx
+#: popups/modals/PersonaSettingModal/index.tsx
+msgid "Profile Photo"
+msgstr "个人头像"
+
+#: popups/pages/Wallet/CollectibleDetail/index.tsx
+#: popups/pages/Wallet/CollectibleDetail/index.tsx
+msgid "Properties"
+msgstr "属性"
+
+#: dashboard/pages/SetupPersona/Mnemonic/ComponentToPrint.tsx
+msgid "Public Key: <0>{publicKey}</0>"
+msgstr ""
+
+#: popups/pages/Trader/Header.tsx
+#: popups/pages/Trader/Header.tsx
+msgid "Quote Route"
+msgstr ""
+
+#: popups/modals/SetBackupPasswordModal/index.tsx
+#: popups/modals/ChangeBackupPasswordModal/index.tsx
+msgid "Re-enter"
+msgstr "重新输入"
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+msgid "ready 🚀"
+msgstr "准备🚀"
+
+#: content-script/components/CompositionDialog/useSubmit.ts
+msgid "realMaskNetwork"
+msgstr ""
+
+#: popups/pages/Wallet/components/ActionGroup/index.tsx
+#: popups/pages/Wallet/Receive/index.tsx
+msgid "Receive"
+msgstr "接收"
+
+#: dashboard/pages/SetupPersona/Recovery/index.tsx
+msgid "Recover your data"
+msgstr "恢复数据"
+
+#: dashboard/pages/CreateMaskWallet/Recovery/index.tsx
+msgid "Recover your wallet"
+msgstr "恢复钱包"
+
+#: dashboard/pages/SetupPersona/SignUp/index.tsx
+#: dashboard/pages/SetupPersona/Mnemonic/index.tsx
+#: popups/modals/SwitchPersonaModal/index.tsx
+msgid "Recovery"
+msgstr "恢复"
+
+#: dashboard/pages/SetupPersona/Recovery/index.tsx
+msgid "Recovery Phrase"
+msgstr "身份助记词"
+
+#: dashboard/pages/SetupPersona/Mnemonic/index.tsx
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/index.tsx
+msgid "Refresh"
+msgstr "刷新"
+
+#: popups/pages/Wallet/Interaction/interaction.tsx
+msgid "Reject {totalMessages} Transactions"
+msgstr ""
+
+#: content-script/components/InjectedComponents/ProfileTabContent.tsx
+msgid "Reload"
+msgstr "重新加载"
+
+#: popups/pages/Wallet/WalletSettings/index.tsx
+#: popups/modals/WalletRemoveModal/index.tsx
+msgid "Remove"
+msgstr "移除"
+
+#: popups/pages/Wallet/WalletSettings/index.tsx
+msgid "Remove Wallet"
+msgstr "移除钱包"
+
+#: popups/pages/Wallet/WalletSettings/index.tsx
+msgid "Remove Wallet?"
+msgstr "移除钱包?"
+
+#: popups/pages/Wallet/WalletSettings/Rename.tsx
+#: popups/pages/Wallet/WalletSettings/Rename.tsx
+#: popups/pages/Wallet/CreateWallet/Derive.tsx
+#: popups/modals/PersonaRenameModal/index.tsx
+msgid "Rename"
+msgstr "重命名"
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Request ID"
+msgstr ""
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Request is valid not after"
+msgstr ""
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Request is valid not before"
+msgstr ""
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Request Source"
+msgstr "请求源"
+
+#: dashboard/components/Restore/RestorePersonaFromLocal.tsx
+msgid "Reselect"
+msgstr "重新选择"
+
+#: content-script/components/InjectedComponents/SetupGuide/VerifyNextID.tsx
+#: dashboard/pages/SetupPersona/CloudBackup/PhoneForm.tsx
+#: dashboard/pages/SetupPersona/CloudBackup/EmailForm.tsx
+msgid "Resend"
+msgstr "重新发送"
+
+#: popups/pages/Wallet/ResetWallet/index.tsx
+msgid "Reset Wallet"
+msgstr "重置钱包"
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Resource"
+msgstr ""
+
+#: dashboard/components/Restore/RestorePersonaFromLocal.tsx
+#: dashboard/components/Restore/RestoreFromCloud/index.tsx
+#: dashboard/components/Restore/RestoreFromCloud/ConfirmBackupInfo.tsx
+msgid "Restore"
+msgstr "恢复"
+
+#: dashboard/components/Restore/RestorePersonaFromLocal.tsx
+msgid "Restore backup failed."
+msgstr ""
+
+#: popups/pages/Settings/index.tsx
+msgid "Restore Database"
+msgstr "恢复数据库"
+
+#: dashboard/components/Restore/RestoreFromCloud/index.tsx
+msgid "Restore failed"
+msgstr "恢复失败"
+
+#: popups/pages/Settings/index.tsx
+msgid "Restore from a previous database backup"
+msgstr "从以前的数据库备份恢复"
+
+#: popups/pages/Personas/Home/UI.tsx
+msgid "Restore or Login"
+msgstr "恢复身份"
+
+#: popups/modals/ConnectProvider/index.tsx
+msgid "Retry"
+msgstr "重试"
+
+#: popups/pages/Wallet/EditNetwork/index.tsx
+msgid "RPC URL"
+msgstr ""
+
+#: popups/pages/Personas/AccountDetail/UI.tsx
+#: popups/components/AddContactInputPanel/index.tsx
+msgid "Save"
+msgstr "保存"
+
+#: popups/pages/Personas/AccountDetail/index.tsx
+msgid "Save failed"
+msgstr "保存失败"
+
+#: popups/pages/Personas/AccountDetail/index.tsx
+msgid "Saved"
+msgstr ""
+
+#: popups/pages/Wallet/components/ActivityList/ActivityItem.tsx
+msgid "Scam tx"
+msgstr ""
+
+#: popups/pages/Wallet/Receive/index.tsx
+msgid "Scan QR code to receive payment"
+msgstr "扫描二维码以接收付款"
+
+#: popups/pages/Personas/WalletConnect/index.tsx
+msgid "Scan QR code with WalletConnect-compatible wallet"
+msgstr ""
+
+#: popups/pages/Friends/Search/index.tsx
+msgid "Search Next.ID, X, Lens, ENS or Address"
+msgstr ""
+
+#: popups/pages/Trader/useImplementRuntime.tsx
+msgid "Select"
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/AddDeriveWallet/index.tsx
+msgid "Select Address"
+msgstr "选择地址"
+
+#: content-script/components/shared/SelectRecipients/SelectRecipientsDialog.tsx
+#: content-script/components/shared/SelectProfileUI/SelectProfileUI.tsx
+msgid "Select All"
+msgstr "全选"
+
+#: popups/modals/SelectProviderModal/index.tsx
+msgid "Select and Connect to your wallet"
+msgstr "选择并连接到你的钱包"
+
+#: popups/modals/SelectLanguageModal/index.tsx
+msgid "Select language"
+msgstr "选择语言"
+
+#: popups/pages/Trader/Header.tsx
+msgid "Select Liquidity"
+msgstr ""
+
+#: dashboard/pages/SetupPersona/LocalBackup/index.tsx
+msgid "Select the contents of the backup"
+msgstr "选择备份的内容"
+
+#: popups/pages/Wallet/Interaction/PermissionRequest.tsx
+msgid "Select the wallet(s) to use on this site. You should not connect to website you don't trust."
+msgstr ""
+
+#: popups/pages/Wallet/SelectWallet/index.tsx
+msgid "Select Wallet"
+msgstr "选择钱包"
+
+#: content-script/components/InjectedComponents/SetupGuide/VerifyNextID.tsx
+#: dashboard/pages/SetupPersona/CloudBackup/PhoneForm.tsx
+#: dashboard/pages/SetupPersona/CloudBackup/EmailForm.tsx
+#: popups/pages/Wallet/components/ActivityList/ActivityItem.tsx
+#: popups/pages/Wallet/components/ActionGroup/index.tsx
+#: popups/pages/Wallet/Transfer/index.tsx
+#: popups/pages/Wallet/ContactList/index.tsx
+#: popups/pages/Wallet/CollectibleDetail/index.tsx
+#: popups/components/TransactionPreview/index.tsx
+msgid "Send"
+msgstr "发送"
+
+#: popups/pages/Settings/index.tsx
+msgid "Service Agreement"
+msgstr "服务协议"
+
+#: popups/pages/Wallet/ChangeOwner/index.tsx
+msgid "Set a New Management Account"
+msgstr "设置新的管理账户"
+
+#: content-script/site-adaptors/instagram.com/injection/NFT/NFTAvatarSettingDialog.tsx
+msgid "Set NFT Photo"
+msgstr "设置 NFT 头像"
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#: popups/pages/Wallet/SetPaymentPassword/index.tsx
+#: popups/pages/Wallet/SetPaymentPassword/index.tsx
+msgid "Set Payment Password"
+msgstr "设置支付密码"
+
+#: popups/pages/Wallet/SetPaymentPassword/index.tsx
+msgid "Set payment password successfully."
+msgstr "设置支付密码成功。"
+
+#: dashboard/pages/CreateMaskWallet/CreateWalletForm/index.tsx
+msgid "Set Your Payment Password"
+msgstr "设置支付密码"
+
+#: dashboard/pages/SignUp/steps/PersonaNameUI.tsx
+msgid "Set Your Persona Name"
+msgstr "设置您的角色名称"
+
+#: dashboard/pages/SignUp/steps/PersonaNameUI.tsx
+msgid "Set your persona name with maximum length of 24 characters"
+msgstr "设置您的身份名称，最大长度为24个字符"
+
+#: popups/pages/Settings/index.tsx
+msgid "Settings"
+msgstr "设置"
+
+#: content-script/components/shared/SelectRecipients/SelectRecipientsDialog.tsx
+#: content-script/components/InjectedComponents/SelectPeopleDialog.tsx
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+msgid "Share with"
+msgstr "分享与"
+
+#: content-script/components/InjectedComponents/PageInspector.tsx
+msgid "Show me how"
+msgstr "教我怎么做"
+
+#: popups/pages/Wallet/components/AssetsList/MoreBar.tsx
+msgid "Show tokens with value less than $1"
+msgstr "显示价值小于$1 的代币"
+
+#: popups/pages/Wallet/Interaction/WalletSignRequest.tsx
+#: popups/pages/Personas/PersonaSignRequest/index.tsx
+#: popups/pages/Personas/ConnectWallet/index.tsx
+msgid "Sign"
+msgstr "签名"
+
+#: dashboard/pages/SetupPersona/Recovery/index.tsx
+msgid "Sign Up"
+msgstr "注册"
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Sign-in Request"
+msgstr ""
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Signature Request"
+msgstr "签名请求"
+
+#: popups/pages/Personas/ConnectWallet/index.tsx
+msgid "Signing ..."
+msgstr "正在签名..."
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Signing Message (Raw)"
+msgstr "签名消息 (十六进制)"
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Signing Message (Text)"
+msgstr "消息签名"
+
+#: popups/modals/UpdatePermissionModal/index.tsx
+msgid "Since X is now using the new domain name x.com, Mask Network requires users to grant new permissions in order to continue working on x.com."
+msgstr ""
+
+#: popups/pages/RequestPermission/RequestPermission.tsx
+msgid "Sites"
+msgstr "站点"
+
+#: popups/pages/Personas/PersonaAvatarSetting/index.tsx
+msgid "Size limit: 10 MB"
+msgstr ""
+
+#: content-script/components/GuideStep/index.tsx
+#: dashboard/pages/SetupPersona/SignUp/index.tsx
+msgid "Skip"
+msgstr "跳过"
+
+#: popups/pages/Trader/Header.tsx
+msgid "Slippage"
+msgstr ""
+
+#: popups/pages/Personas/Home/UI.tsx
+#: popups/pages/Personas/AccountDetail/index.tsx
+msgid "Social Account"
+msgstr "社交账户"
+
+#: popups/pages/Personas/ConnectWallet/index.tsx
+msgid "Sorry, signature failed! Please try signing again."
+msgstr "对不起，签名失败！请再试一次。"
+
+#: popups/pages/Wallet/components/ActivityList/ActivityItem.tsx
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+#: popups/modals/GasSettingModal/index.tsx
+msgid "Speed Up"
+msgstr "加速"
+
+#: popups/components/UnlockERC721Token/index.tsx
+#: popups/components/UnlockERC20Token/index.tsx
+msgid "Spend limit requested by"
+msgstr "支出限额请求者"
+
+#: popups/modals/GasSettingModal/GasSettingDialog.tsx
+msgid "Spend more transaction fees to cancel the previous transaction."
+msgstr "花费更多的交易费用来取消以前的交易。"
+
+#: content-script/components/InjectedComponents/SetupGuide/PinExtension.tsx
+msgid "Start"
+msgstr "开始"
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "status"
+msgstr "状态"
+
+#: dashboard/pages/CreateMaskWallet/Recovery/index.tsx
+msgid "Step {step}/{step}"
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/index.tsx
+msgid "Step {step}/{totalSteps}"
+msgstr ""
+
+#: dashboard/pages/SetupPersona/SignUp/index.tsx
+msgid "Step 1/2"
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/CreateWalletForm/index.tsx
+msgid "Step 1/3"
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Mnemonic/index.tsx
+#: dashboard/pages/CreateMaskWallet/AddDeriveWallet/index.tsx
+msgid "Step 2/2"
+msgstr ""
+
+#: dashboard/components/Restore/ConfirmSynchronizePasswordDialog.tsx
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Success"
+msgstr "成功"
+
+#: popups/pages/Wallet/Interaction/PermissionRequest.tsx
+msgid "Suggest to send transactions and sign messages"
+msgstr ""
+
+#: popups/pages/Settings/index.tsx
+msgid "Support"
+msgstr "支持"
+
+#: popups/pages/Personas/Home/UI.tsx
+msgid "Support Identity code, private key, local backups or cloud backups to access your personal data."
+msgstr "支持身份代码、私钥、本地备份或云备份以访问您的个人数据。"
+
+#: popups/pages/Wallet/components/ImportCreateWallet/index.tsx
+msgid "Support mnemonic phrase, private key or keystore file."
+msgstr ""
+
+#: popups/pages/Settings/index.tsx
+#: popups/modals/SupportedSitesModal/index.tsx
+msgid "Supported Sites"
+msgstr "所支持的网站"
+
+#: popups/pages/Wallet/components/ActionGroup/index.tsx
+#: popups/pages/Trader/Header.tsx
+msgid "Swap"
+msgstr ""
+
+#: dashboard/pages/SetupPersona/CloudBackupPreview/index.tsx
+#: dashboard/pages/SetupPersona/CloudBackupPreview/index.tsx
+msgid "Switch other account"
+msgstr "切换帐号"
+
+#: popups/modals/SwitchPersonaModal/index.tsx
+msgid "Switch Persona"
+msgstr "切换 Persona"
+
+#: dashboard/components/Restore/RestoreFromCloud/ConfirmBackupInfo.tsx
+msgid "Switch to other accounts"
+msgstr ""
+
+#: popups/components/MnemonicDisplay/index.tsx
+msgid "Tap to view the mnemonic words <0/> Make sure no one is looking at your screen"
+msgstr ""
+
+#: popups/components/PrivateKeyDisplay/index.tsx
+msgid "Tap to view the private key <0/> Make sure no one is looking at your screen"
+msgstr ""
+
+#: content-script/components/CompositionDialog/EncryptionMethodSelector.tsx
+#: content-script/components/CompositionDialog/EncryptionMethodSelector.tsx
+msgid "Text"
+msgstr "文本"
+
+#: content-script/components/InjectedComponents/AutoPasteFailedDialog.tsx
+msgid "Text copied!"
+msgstr ""
+
+#: popups/components/UnlockERC20Token/index.tsx
+msgid "The approval for this contract will be revoked in case of the amount is 0."
+msgstr ""
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "The chainID is not equal to the currently connected one."
+msgstr ""
+
+#: dashboard/pages/SetupPersona/CloudBackup/index.tsx
+#: dashboard/contexts/CloudBackupFormContext.tsx
+#: dashboard/contexts/CloudBackupFormContext.tsx
+msgid "The code is incorrect."
+msgstr "验证码不正确"
+
+#: dashboard/modals/MergeBackupModal/MergeBackupDialog.tsx
+msgid "The download link is expired"
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/index.tsx
+msgid "The mnemonic word has been copied, please keep it in a safe place."
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Mnemonic/index.tsx
+msgid "The mnemonic words has been copied, please keep it in a safe place."
+msgstr ""
+
+#: popups/pages/Wallet/EditNetwork/useWarnings.ts
+#~ msgid "The network with chain ID {formChainId} may use a different currency symbol ({0}) than the one you have entered. Please check."
+#~ msgstr ""
+
+#. placeholder {1}: match.nativeCurrency.symbol
+#: popups/pages/Wallet/EditNetwork/useWarnings.ts
+msgid "The network with chain ID {formChainId} may use a different currency symbol ({1}) than the one you have entered. Please check."
+msgstr ""
+
+#: popups/modals/ChangePaymentPasswordModal/index.tsx
+msgid "The new passwords don't match"
+msgstr "新密码不匹配"
+
+#. placeholder {0}: profile.identifier.userId
+#: content-script/components/shared/SelectRecipients/ProfileInList.tsx
+msgid "The Persona is connected to the account @${0}."
+msgstr ""
+
+#: content-script/components/shared/SelectRecipients/ProfileInList.tsx
+msgid "The Persona is connected to the following accounts: {list}"
+msgstr ""
+
+#: content-script/components/shared/SelectRecipients/ProfileInList.tsx
+msgid "The Persona is not connected to any accounts."
+msgstr ""
+
+#: popups/modals/PersonaRenameModal/index.tsx
+msgid "The persona name already exists."
+msgstr "此身份名称已存在"
+
+#: dashboard/contexts/CloudBackupFormContext.tsx
+msgid "The phone number is incorrect."
+msgstr "此手机号码不正确。"
+
+#: popups/pages/Wallet/EditNetwork/network-schema.ts
+msgid "The RPC URL you have entered returned a different chain ID ({rpcChainId}). Please update the Chain ID to match the RPC URL of the network you are trying to add."
+msgstr ""
+
+#. placeholder {0}: format(localTransaction.updatedAt, "HH:mm 'on' M/dd/yyyy")
+#: popups/pages/Wallet/TransactionDetail/useTransactionLogs.ts
+msgid "The transaction was complete and has been recorded on blockchain at {0}"
+msgstr ""
+
+#. placeholder {0}: format(localTransaction.createdAt, "HH:mm 'on' M/dd/yyyy")
+#: popups/pages/Wallet/TransactionDetail/useTransactionLogs.ts
+msgid "The transaction was confirmed at {0}"
+msgstr ""
+
+#: content-script/components/InjectedComponents/SetupGuide/VerifyNextID.tsx
+msgid "The verification post sent.<0/><1/>You could check the verification result on the Mask Pop-up after few minutes. If it failed, try to send another verification post later."
+msgstr ""
+
+#: popups/modals/AddContactModal/index.tsx
+msgid "The wallet address already exists."
+msgstr "该钱包地址已经存在。"
+
+#: popups/modals/WalletRenameModal/index.tsx
+#: popups/modals/EditContactModal/index.tsx
+#: popups/modals/AddContactModal/index.tsx
+msgid "The wallet name already exists."
+msgstr "该钱包名称已经存在。"
+
+#: popups/pages/Wallet/Interaction/PermissionRequest.tsx
+msgid "The web site can"
+msgstr ""
+
+#. placeholder {0}: message.domain
+#: popups/components/SignRequestInfo/index.tsx
+msgid "The website ({messageOrigin}) is asking you to sign in to another domain ({0}). This may be a phishing attack."
+msgstr ""
+
+#: popups/pages/Wallet/Interaction/interaction.tsx
+msgid "There was a network or RPC provider error, please try again later!"
+msgstr "网络或RPC提供方出现错误，请稍后再试 ！"
+
+#: popups/hooks/useContactsContext.ts
+msgid "This address is a contract address."
+msgstr "此地址是合同地址。"
+
+#: popups/hooks/useContactsContext.ts
+msgid "This address may be a scam address."
+msgstr "此地址可能是欺诈地址。"
+
+#. placeholder {0}: String(token?.symbol)
+#: popups/components/UnlockERC20Token/index.tsx
+msgid "This allows the third party to spend {value} {0} from your current balance."
+msgstr ""
+
+#: popups/components/UnlockERC20Token/index.tsx
+msgid "This allows the third party to spend all your token balance until it reaches the cap or you revoke the spending cap. If this is not intended, consider setting a lower spending cap."
+msgstr "这允许第三方使用您所有的代币余额，直到达到上限或您取消支出上限为止。 如果不打算这样做，则考虑设定较低的支出上限。"
+
+#: popups/pages/Wallet/EditNetwork/useWarnings.ts
+#~ msgid "This Chain ID is currently used by the {0} network."
+#~ msgstr ""
+
+#. placeholder {0}: duplicated.name
+#: popups/pages/Wallet/EditNetwork/useWarnings.ts
+msgid "This Chain ID is currently used by the {0} network. "
+msgstr ""
+
+#: popups/hooks/useContactsContext.ts
+msgid "This ENS does not exist or not be resolved."
+msgstr "此ENS不存在或未被解析。"
+
+#: popups/pages/Personas/ExportPrivateKey/index.tsx
+msgid "This export is only for exporting private key. We do not export any other data. If you need more data, please go to Settings: <0> Global Backup </0>"
+msgstr ""
+
+#: popups/pages/Personas/ExportPrivateKey/index.tsx
+#~ msgid "This export is only for exporting private key. We do not export any other data. If you need more data, please go to Settings: <0>Global Backup </0>"
+#~ msgstr ""
+
+#: popups/pages/Wallet/ExportPrivateKey/index.tsx
+msgid "This JSON file is encrypted with your current payment password. The same password is required for decryption when importing this wallet."
+msgstr "此 JSON 文件使用您当前的支付密码加密。导入此钱包时解密需要相同的密码。"
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "This message contains a invalid EIP-4361 message. It is better to reject this request."
+msgstr ""
+
+#: popups/pages/Wallet/EditNetwork/network-schema.ts
+msgid "This network name already exists"
+msgstr "此网络名称已存在"
+
+#: dashboard/pages/SetupPersona/Mnemonic/ComponentToPrint.tsx
+msgid "This QR includes your identity, please keep it safely."
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/ComponentToPrint.tsx
+msgid "This QR includes your mnemonic words, please keep it safely."
+msgstr ""
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "This request has been expired."
+msgstr ""
+
+#: popups/pages/Wallet/Interaction/interaction.tsx
+msgid "This request may be a phishing attach. I understand this and want to continue."
+msgstr ""
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "This request should only be sign in the future."
+msgstr ""
+
+#. placeholder {0}: network.name
+#: popups/pages/Wallet/EditNetwork/network-schema.ts
+#: popups/pages/Wallet/EditNetwork/network-schema.ts
+msgid "This RPC URL is currently used by the {0} network"
+msgstr "RPC URL已经被{0} 网络使用"
+
+#: content-script/site-adaptors/twitter.com/customization/i18n.ts
+msgid "This tweet is encrypted with #mask_io (@realMaskNetwork). 📪🔑"
+msgstr ""
+
+#. placeholder {0}: String(currentPersona?.nickname)
+#: popups/pages/Personas/ConnectWallet/index.tsx
+msgid "This wallet is connected to current persona {0}."
+msgstr "钱包已经链接到当前的身份{0}。"
+
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+msgid "This will overwrite the existing cloud backup with the local data, this cannot be undo."
+msgstr ""
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+#: popups/components/AddContactInputPanel/index.tsx
+msgid "To"
+msgstr "至"
+
+#. placeholder {0}: formatDomainName(domain)
+#. placeholder {0}: formatEthereumAddress(toAddress, 4)
+#: popups/pages/Wallet/components/ActivityList/ActivityItem.tsx
+#: popups/pages/Wallet/components/ActivityList/ActivityItem.tsx
+msgid "to {0}"
+msgstr "至: {0}"
+
+#: popups/pages/Wallet/components/ActivityList/ActivityItem.tsx
+msgid "to <0>{toAddress}</0>"
+msgstr ""
+
+#: content-script/components/InjectedComponents/SetupGuide/VerifyNextID.tsx
+msgid "To verify your X account and record it on the NextID, please send this post for the verification."
+msgstr ""
+
+#: content-script/components/InjectedComponents/SetupGuide/VerifyNextID.tsx
+msgid "To verify your X account and record it on the NextID, you will need to send a post for the verification."
+msgstr ""
+
+#: popups/pages/Wallet/Interaction/WatchTokenRequest.tsx
+msgid "Token"
+msgstr ""
+
+#: popups/pages/Wallet/Interaction/WatchTokenRequest.tsx
+msgid "Token Address"
+msgstr ""
+
+#: popups/pages/Wallet/CollectibleDetail/index.tsx
+msgid "Token now is hidden."
+msgstr ""
+
+#: popups/pages/Wallet/Interaction/WatchTokenRequest.tsx
+#: popups/pages/Wallet/Interaction/WatchTokenRequest.tsx
+msgid "Token Value"
+msgstr ""
+
+#: popups/pages/Wallet/components/WalletAssets/index.tsx
+#: popups/pages/Wallet/Transfer/index.tsx
+#: popups/pages/Wallet/AddToken/index.tsx
+msgid "Tokens"
+msgstr "代币"
+
+#: popups/pages/Trader/Header.tsx
+msgid "Trading Route"
+msgstr ""
+
+#: popups/pages/Trader/Header.tsx
+msgid "Transaction Details"
+msgstr ""
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Transaction Fee"
+msgstr "交易费"
+
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+msgid "Transaction Hash"
+msgstr "交易哈希"
+
+#: content-script/components/GuideStep/index.tsx
+msgid "Try"
+msgstr "试一下"
+
+#: popups/modals/ChangeBackupPasswordModal/index.tsx
+msgid "Two entered passwords are different."
+msgstr ""
+
+#: popups/pages/Wallet/hooks/usePasswordForm.ts
+#: popups/modals/SetBackupPasswordModal/index.tsx
+msgid "Two entered passwords are not the same."
+msgstr ""
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Unknown EIP-4361 message version."
+msgstr ""
+
+#: popups/pages/Wallet/Unlock/index.tsx
+msgid "Unlock"
+msgstr "解锁"
+
+#: dashboard/components/Restore/RestoreWalletFromLocal.tsx
+#: dashboard/components/Restore/RestorePersonaFromLocal.tsx
+msgid "Unpacking"
+msgstr ""
+
+#: dashboard/components/Restore/RestorePersonaFromLocal.tsx
+#: dashboard/components/Restore/RestorePersonaFromLocal.tsx
+msgid "Unsupported data backup"
+msgstr "不支持的数据备份格式"
+
+#: dashboard/components/Restore/RestoreWalletFromLocal.tsx
+msgid "Unsupported key store data"
+msgstr "不支持的密钥存储数据"
+
+#: popups/pages/Wallet/SelectWallet/index.tsx
+msgid "Unsupported network type"
+msgstr "不支持的网络类型"
+
+#: dashboard/pages/SetupPersona/Permissions/index.tsx
+msgid "Update permission for X.com"
+msgstr ""
+
+#: popups/modals/UpdatePermissionModal/index.tsx
+msgid "Update X.com Permissions"
+msgstr ""
+
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+msgid "Upload backup"
+msgstr "上传备份"
+
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+msgid "Uploading"
+msgstr "正在上传"
+
+#: popups/pages/Wallet/EditNetwork/network-schema.ts
+msgid "URLs require the appropriate HTTPS prefix."
+msgstr "URL要求合适的 HTTPS 前缀。"
+
+#: content-script/site-adaptors/instagram.com/injection/NFT/ProfileNFTAvatar.tsx
+msgid "Use NFT"
+msgstr "设置 NFT 头像"
+
+#: popups/pages/Personas/Home/UI.tsx
+msgid "Use Persona to encrypt and decrypt social media posts & messages."
+msgstr "使用 Persona 来加密和解密社交媒体帖子和消息。"
+
+#: content-script/components/CompositionDialog/EncryptionMethodSelector.tsx
+msgid "Use text encryption"
+msgstr "使用文本加密"
+
+#: popups/pages/Wallet/TokenDetail/index.tsx
+msgid "value"
+msgstr "价值"
+
+#: dashboard/components/Restore/RestoreFromCloud/EmailField.tsx
+msgid "Verification code has been sent to your email. Please check your mailbox."
+msgstr ""
+
+#: dashboard/components/Restore/RestoreFromCloud/PhoneField.tsx
+msgid "Verification code has been sent to your phone."
+msgstr ""
+
+#: dashboard/pages/SetupPersona/CloudBackup/PhoneForm.tsx
+#: dashboard/pages/SetupPersona/CloudBackup/EmailForm.tsx
+msgid "Verification code sent"
+msgstr "验证码已发送"
+
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/index.tsx
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/index.tsx
+msgid "Verify"
+msgstr "验证"
+
+#: content-script/components/InjectedComponents/SetupGuide/hooks/useNotifyConnected.ts
+#: popups/pages/Personas/AccountDetail/UI.tsx
+msgid "Verify Account"
+msgstr "连接并验证成功。"
+
+#: popups/pages/Settings/index.tsx
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Version"
+msgstr ""
+
+#: popups/pages/Wallet/Interaction/TransactionRequest.tsx
+msgid "View full transaction details"
+msgstr "查看交易详情"
+
+#: content-script/components/InjectedComponents/ProfileCard/ProfileBar.tsx
+#: content-script/components/InjectedComponents/ProfileCard/ProfileBar.tsx
+#: popups/pages/Wallet/TransactionDetail/index.tsx
+#: popups/pages/Wallet/ChangeOwner/index.tsx
+#: popups/pages/Wallet/ChangeOwner/index.tsx
+#: popups/pages/Personas/ConnectWallet/index.tsx
+msgid "View on Explorer"
+msgstr "在区块链浏览器查看"
+
+#: popups/pages/Wallet/Interaction/PermissionRequest.tsx
+msgid "View your account balance and history"
+msgstr ""
+
+#: popups/pages/Wallet/Interaction/PermissionRequest.tsx
+msgid "View your address"
+msgstr ""
+
+#: popups/pages/Wallet/Interaction/PermissionRequest.tsx
+msgid "View your Tokens and NFTs"
+msgstr ""
+
+#: content-script/components/CompositionDialog/EncryptionTargetSelector.tsx
+msgid "Visible To"
+msgstr "可见范围"
+
+#: popups/modals/ConnectProvider/index.tsx
+msgid "Waiting for {providerType}"
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+msgid "wallet"
+msgstr "钱包"
+
+#: popups/pages/Wallet/SwitchWallet/index.tsx
+#: popups/modals/WalletGroupModal/index.tsx
+msgid "Wallet Account"
+msgstr "钱包账户"
+
+#: popups/components/ConnectedWallet/index.tsx
+msgid "Wallet disconnected"
+msgstr ""
+
+#. placeholder {0}: String(index + 1)
+#: popups/pages/Wallet/CreateWallet/index.tsx
+#: popups/modals/WalletGroupModal/index.tsx
+msgid "Wallet Group #{0}"
+msgstr "钱包组 #{0}"
+
+#: popups/pages/Wallet/ConnectedSites/index.tsx
+#~ msgid "Wallet name is connected to these sites, they can view your account address."
+#~ msgstr ""
+
+#: popups/modals/WalletRenameModal/index.tsx
+#: popups/modals/WalletRenameModal/index.tsx
+msgid "Wallet name must between 3 to 18 characters."
+msgstr "文件名必须介于 3 到 20 个字符之间。"
+
+#: popups/modals/ConnectProvider/index.tsx
+msgid "Wallet request timed out"
+msgstr "钱包请求超时"
+
+#: popups/pages/Wallet/WalletSettings/index.tsx
+#: popups/pages/Wallet/SwitchWallet/index.tsx
+msgid "Wallet Settings"
+msgstr "钱包设置"
+
+#: popups/pages/Personas/WalletConnect/index.tsx
+msgid "WalletConnect"
+msgstr ""
+
+#: dashboard/pages/SetupPersona/PermissionOnboarding/index.tsx
+msgid "We are pleased to inform you that the update for X (formerly named Twitter) website has been completed. You can now continue to enjoy all the features of Mask Network as usual. Thank you for your continuous support!"
+msgstr ""
+
+#: content-script/components/InjectedComponents/ProfileCard/index.tsx
+msgid "Web3 Profile Card"
+msgstr "Web3 名片"
+
+#: popups/pages/Wallet/components/OriginCard/index.tsx
+#: popups/pages/Settings/index.tsx
+msgid "Website"
+msgstr "网站"
+
+#: popups/pages/Wallet/Unlock/index.tsx
+msgid "Welcome Back"
+msgstr "欢迎回来"
+
+#: dashboard/pages/SetupPersona/CloudBackupPreview/index.tsx
+msgid "Welcome to Mask Cloud Services"
+msgstr "欢迎使用 Mask 云服务"
+
+#: popups/pages/Personas/Home/UI.tsx
+msgid "Welcome to Mask Network"
+msgstr "欢迎来到 Mask Network！"
+
+#: dashboard/pages/SetupPersona/Welcome/index.tsx
+msgid "Welcome to use Mask Network"
+msgstr "欢迎来到 Mask Network！"
+
+#: popups/pages/Wallet/ExportPrivateKey/index.tsx
+msgid "Write down mnemonic words"
+msgstr "写下助记词"
+
+#: dashboard/pages/CreateMaskWallet/CreateMnemonic/index.tsx
+msgid "Write down recovery phrase"
+msgstr ""
+
+#: dashboard/modals/BackupPreviewModal/BackupPreviewDialog.tsx
+msgid "You have backed up your data."
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#~ msgid "You have recovered"
+#~ msgstr ""
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+msgid "You have recovered "
+msgstr ""
+
+#: popups/pages/Personas/ConnectWallet/index.tsx
+msgid "You have signed with your wallet."
+msgstr ""
+
+#: dashboard/components/Restore/ConfirmSynchronizePasswordDialog.tsx
+msgid "You have verified your cloud password and recovered your backup. Do you want to let your cloud password and local backup password be the same?"
+msgstr ""
+
+#: content-script/components/InjectedComponents/DisabledPluginSuggestion.tsx
+msgid "You need to open the dApp to view the specific content."
+msgstr ""
+
+#. placeholder {0}: user.email
+#: dashboard/pages/SetupPersona/CloudBackup/index.tsx
+#: dashboard/pages/SetupPersona/CloudBackup/index.tsx
+msgid "You used <0>{0}</0> for the last cloud backup."
+msgstr ""
+
+#: popups/components/SignRequestInfo/index.tsx
+msgid "Your connection to this site is not encrypted which can be modified by a hostile third party, we strongly suggest you reject this request."
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/CreateWalletForm/index.tsx
+msgid "Your payment password encrypts wallet data and is needed to unlocking the wallet, transaction confirmations and signing. The password is never stored, and there is no way to recover it if you forget it."
+msgstr ""
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+#~ msgid "Your Persona is on"
+#~ msgstr ""
+
+#: dashboard/pages/SetupPersona/Onboarding/index.tsx
+msgid "Your Persona is on "
+msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+#~ msgid "Your Wallet is on"
+#~ msgstr ""
+
+#: dashboard/pages/CreateMaskWallet/Onboarding/index.tsx
+msgid "Your Wallet is on "
+msgstr ""

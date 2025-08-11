@@ -1,0 +1,9 @@
+{
+  "extends": "../../../tsconfig.leaf.json",
+  "compilerOptions": {
+    "rootDir": "./",
+    "tsBuildInfoFile": "../dist/devtools.tsbuildinfo"
+  },
+  "include": ["./"],
+  "references": [{ "path": "../../flags/tsconfig.json" }, { "path": "../../shared-base/tsconfig.json" }]
+}
